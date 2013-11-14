@@ -2,12 +2,18 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://blog.signalleaf.com
+title: Signals And Leaves
+subtitle: The SignalLeaf.com Blog
+author: Derick Bailey
 simple_search: http://google.com/search
 description:
+  Signals And Leaves is a blog about podcasting, building and running
+  a podcasting service, and everything that entails. You'll hear tips
+  and tricks for podcasting. You'll find podcast episodes that SignalLeaf
+  hosts and produces. You'll get pointers to the right equipment, and
+  see a lot of other bits about hosting, producing and making the most of
+  a podcast.
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -63,17 +69,17 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_user: signalleaf
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: signalleaf
 twitter_tweet_button: true
 
 # Google +1
-google_plus_one: false
+google_plus_one: true
 google_plus_one_size: medium
 
 # Google Plus Profile
@@ -90,11 +96,11 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
-disqus_show_comment_count: false
+disqus_short_name: signalleafblog
+disqus_show_comment_count: true
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-20471045-9
 
 # Facebook Like
-facebook_like: false
+facebook_like: true
