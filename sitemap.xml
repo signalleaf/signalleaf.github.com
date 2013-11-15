@@ -1,12 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://blog.signalleaf.com/blog/2013/11/14/welcome-and-episode-1/</loc>
+        <lastmod>2013-11-14T20:21:26-06:00</lastmod>
+    </url>
+    <url>
         <loc>http://blog.signalleaf.com/blog/archives/</loc>
-        <lastmod>2013-11-14T16:14:44-06:00</lastmod>
+        <lastmod>2013-11-14T20:21:26-06:00</lastmod>
     </url>
     <url>
         <loc>http://blog.signalleaf.com/</loc>
-        <lastmod>2013-11-14T16:14:44-06:00</lastmod>
+        <lastmod>2013-11-14T20:21:26-06:00</lastmod>
     </url>
     <url>
         <loc>http://blog.signalleaf.com/robots.txt</loc>

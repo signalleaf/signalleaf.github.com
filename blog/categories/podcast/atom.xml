@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Signals And Leaves]]></title>
-  <link href="http://blog.signalleaf.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: podcast | Signals And Leaves]]></title>
+  <link href="http://blog.signalleaf.com/blog/categories/podcast/atom.xml" rel="self"/>
   <link href="http://blog.signalleaf.com/"/>
   <updated>2013-11-14T20:22:02-06:00</updated>
   <id>http://blog.signalleaf.com/</id>
