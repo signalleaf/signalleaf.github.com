@@ -117,6 +117,10 @@ a good choice for you.
 
 ## Are You Looking For Podcast Hosting?
 
+If you're looking for podcast hosting, you're reading the
+right blog! I've got a great service that is already serving
+up some amazing podcasts, like [Get Up And Code](http://getupandcode.com).
+
 If you're looking for something more than what [SignalLeaf](http://signalleaf.com)
 provies, though, I still want to help you. I want to understand
 your needs - what you're doing with your podcast, what blogging
