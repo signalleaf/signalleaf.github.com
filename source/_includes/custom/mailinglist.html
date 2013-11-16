@@ -7,14 +7,14 @@
   #mc_embed_signup_2 input[type=checkbox]{-webkit-appearance:checkbox;}
   #mc_embed_signup_2 input[type=radio]{-webkit-appearance:radio;}
   #mc_embed_signup_2 input:focus {border-color:#333;}
-  #mc_embed_signup_2 .button {clear:both; background-color: #aaa; border: 0 none; border-radius:4px; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; font-weight: bold; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding:0; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
-  #mc_embed_signup_2 .button:hover {background-color:#777;}
+  #mc_embed_signup_2 .button {background-color: #252; border: 0 none; border-radius:4px; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; font-weight: bold; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding:0; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
+  #mc_embed_signup_2 .button:hover {background-color:#272;}
   #mc_embed_signup_2 .small-meta {font-size: 11px;}
   #mc_embed_signup_2 .nowrap {white-space:nowrap;}     
   #mc_embed_signup_2 .clear {clear:none; display:inline;}
 
   #mc_embed_signup_2 label {display:block; font-size:16px; padding-bottom:10px; font-weight:bold;}
-  #mc_embed_signup_2 input.email {display:block; padding:8px 0; margin:0 4% 10px 0; text-indent:5px; width:58%; min-width:130px;}
+  #mc_embed_signup_2 input.email {display:block; padding:4px 0; margin:0 4% 10px 0; text-indent:5px; width:58%; min-width:130px; font-size: 14pt;}
   #mc_embed_signup_2 input.button {display:block; width:35%; margin:0 0 10px 0; min-width:90px;}
 
   #mc_embed_signup_2 div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
@@ -23,11 +23,12 @@
   #mc_embed_signup_2 #mce-success-response {color:#529214; display:none;}
   #mc_embed_signup_2 label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
 
-	#mc_embed_signup_2{
-    padding: 1em 2em;
-    background:#fff; 
+	#mc_embed_signup_2 form{
     clear:left; 
-    font:14px Helvetica,Arial,sans-serif; 
+    font:14pt Helvetica,Arial,sans-serif; 
+    margin: 0em 3em;
+    padding: 0px;
+    border: 1px solid #bbb;
   }
 	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
@@ -35,35 +36,74 @@
     margin-left: 2em;
   }
 
+  #mc_embed_signup_2 .mc-field-group input {
+    display: inline-block;
+  }
+
+  #mc_embed_signup_2 header.email-header {
+    margin: 0px;
+    height: 50px;
+    padding-top: 25px;
+    background-color: #252;
+    color: #fff;
+    text-align: center;
+  }
+
+  #mc_embed_signup_2 header.email-header h1 {
+    font-size: 18pt;
+  }
+
+  #mc_embed_signup_2 article.email-article {
+    margin: 0px;
+    padding: 1em;
+    background-color: #fff;
+  }
+
+  #mc_embed_signup_2 article.email-article p:last-child {
+    margin-bottom: 0.1em;
+  }
+
+  #mc_embed_signup_2 footer.email-footer {
+    margin: 0;
+    padding: 1em;
+    background-color: #bbb;
+  }
+
 </style>
 <div id="mc_embed_signup_2">
 <form action="http://mutedsolutions.us2.list-manage.com/subscribe/post?u=3972dd7d553357be54dba30dd&amp;id=0a5e47bf39" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-	<h2>Want the latest podcasting news, tips and other resources?</h2>
-  <p> 
-    Sign up for the SignalLeaf.com mailing list, and you will stay
-    informed!
-  </p>
-  <p>
-    <ul class="email-list">
-      <li> How-To Articles
-      <li> Pro-tips on podcasting
-      <li> Optimizing your podcasts
-      <li> Working with the tools of the trade
-      <li> And more!
-    </ul>
-  </p>
-  <p>
-    <strong>Sign up now</strong>, for instant access to the latest and greatest information
-    on podcasting, right in your in-box!
-  </p>
-  <div class="mc-field-group">
-    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email Address">
-    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-  </div>
-	<div id="mce-responses" class="clear">
-		<div class="response" id="mce-error-response" style="display:none"></div>
-		<div class="response" id="mce-success-response" style="display:none"></div>
-	</div>	
+  <header class="email-header">
+    <h1>Want the latest podcasting news and tips?</h1>
+  </header>
+  <article class="email-article">
+    <p> 
+      <strong>Sign up for the SignalLeaf.com mailing list</strong>
+      to receive articles and updates on podasting, including:
+    </p>
+    <p>
+      <ul class="email-list">
+        <li> How-To Articles
+        <li> Pro-tips on podcasting
+        <li> Info on optimizing your podcasts
+        <li> Trade secrets for sounding like a pro
+        <li> And so much more!
+      </ul>
+    </p>
+    <p>
+      <strong>Sign up now</strong>, for instant access to the latest and greatest information
+      on podcasting, right in your in-box!
+    </p>
+  </article>
+  <footer class="email-footer">
+    <div class="mc-field-group">
+      <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email Address">
+      <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+    <div id="mce-responses" class="clear">
+      <div class="response" id="mce-error-response" style="display:none"></div>
+      <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>	
+  </footer>
   <div class="clear">
 </form>
 </div>
