@@ -15,5 +15,11 @@ body > footer {
   a {
     @include link-colors($footer-link-color, $footer-link-color-hover, $visited: $footer-link-color);
   }
+  p {
+    float: left;
+  }
+  p.right {
+    float: right;
+  }
   p:last-child { margin-bottom: 0; }
 }
