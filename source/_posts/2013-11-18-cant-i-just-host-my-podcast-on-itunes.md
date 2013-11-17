@@ -23,6 +23,8 @@ unfortunately common mistake. After all, your subscribers find
 you through iTunes, right? So isn't that where you host your
 podcast?
 
+<!--more-->
+
 ## So, iTunes Won't Host My Podcast?
 
 I can understand this person's perspective on iTunes. They

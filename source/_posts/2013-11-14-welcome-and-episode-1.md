@@ -9,7 +9,11 @@ categories: [intro, features, podcast]
 
 Welcome to the new [SignalLeaf](http://signalleaf.com) blog! 
 Consider this the obligatory "hello world!" blog post for the
-new blog: Signals And Leaves
+new blog: Signals And Leaves. Read on for a little bit of info
+on what SignalLeaf is, what it provides, and what I'll be doing
+with the Signals And Leaves podcast and blog!
+
+<!--more-->
 
 ## About SignalLeaf
 
@@ -30,6 +34,7 @@ you are free to build a website that fits your needs, without
 worrying about whether or not your podcast will fit in to it.
 You can use any platform and any tools to build your site, and
 embed podcast episodes from SignalLeaf, with ease!
+
 
 Already have a blog or a site? Setting up a blog with 
 [WordPress](http://www.signalleaf.com/help/use-with-wordpress) 
