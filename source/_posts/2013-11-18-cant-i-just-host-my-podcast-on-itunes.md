@@ -7,7 +7,7 @@ external-url:
 categories: [podcast, hosting, itunes, streaming, storage, rss]
 ---
 
-I was talking with someone via email, recently, about a podcast 
+I was talking with someone via email about a podcast 
 they are starting. This person clearly had all of the right tools
 and skills for recording and editing the podcast, as they were
 part of a band that has recorded and released albums. During the
@@ -28,11 +28,12 @@ podcast?
 ## So, iTunes Won't Host My Podcast?
 
 I can understand this person's perspective on iTunes. They
-are in a band. This band sells music through iTunes. iTunes
-hosts the audio files for those song and album sales. Why wouldn't
-it work the same way with podcasts?
+are in a band and this band sells music through iTunes. In 
+that scenario, iTunes hosts the audio files for the song and 
+album sales. So, why wouldn't it work the same way with podcasts,
+too?
 
-Sorry, no - podcasts work a bit different than other audio, in 
+Sorry, no - podcasts work a bit different than other audio in 
 distribution and hosting. Instead of uploading podcast episodes 
 directly to iTunes, it is only a network for finding and 
 subscribing to podcast RSS feeds. 
