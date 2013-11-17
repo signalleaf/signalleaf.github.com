@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "I Can't Just Host My Podcast on iTunes?"
+title: "Can't I Just Host My Podcast on iTunes?"
 date: 2013-11-18 8:20am
 comments: true
 external-url:
