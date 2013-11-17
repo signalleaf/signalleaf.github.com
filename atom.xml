@@ -4,7 +4,7 @@
   <title><![CDATA[Signals And Leaves]]></title>
   <link href="http://blog.signalleaf.com/atom.xml" rel="self"/>
   <link href="http://blog.signalleaf.com/"/>
-  <updated>2013-11-16T15:09:10-06:00</updated>
+  <updated>2013-11-17T14:16:10-06:00</updated>
   <id>http://blog.signalleaf.com/</id>
   <author>
     <name><![CDATA[Derick Bailey]]></name>
@@ -14,13 +14,156 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Can't I Just Host My Podcast on iTunes?]]></title>
+    <link href="http://blog.signalleaf.com/blog/2013/11/18/cant-i-just-host-my-podcast-on-itunes/"/>
+    <updated>2013-11-18T08:20:00-06:00</updated>
+    <id>http://blog.signalleaf.com/blog/2013/11/18/cant-i-just-host-my-podcast-on-itunes</id>
+    <content type="html"><![CDATA[<p>I was talking with someone via email, recently, about a podcast
+they are starting. This person clearly had all of the right tools
+and skills for recording and editing the podcast, as they were
+part of a band that has recorded and released albums. During the
+conversation, I asked if they already had a plan for how they
+were going to host the podcast. The response I got was not what
+I expected:</p>
+
+<blockquote><p>we have not yet gotten to the question of hosting the podcast yet.
+i was assuming we would do it though iTunes, but i haven&rsquo;t thought farther than that.</p></blockquote>
+
+<p>While I was surprised at first, this seems to be an
+unfortunately common mistake. After all, your subscribers find
+you through iTunes, right? So isn&rsquo;t that where you host your
+podcast?</p>
+
+<!--more-->
+
+
+<h2>So, iTunes Won&rsquo;t Host My Podcast?</h2>
+
+<p>I can understand this person&rsquo;s perspective on iTunes. They
+are in a band. This band sells music through iTunes. iTunes
+hosts the audio files for those song and album sales. Why wouldn&rsquo;t
+it work the same way with podcasts?</p>
+
+<p>Sorry, no &ndash; podcasts work a bit different than other audio, in
+distribution and hosting. Instead of uploading podcast episodes
+directly to iTunes, it is only a network for finding and
+subscribing to podcast RSS feeds.</p>
+
+<h2>iTunes And Google Maps</h2>
+
+<p>Think of it like Google Maps&hellip; you can quickly and easily find
+an address and a business on Google maps, but Google maps won&rsquo;t
+take you there. You have to walk, drive, fly, or otherwise get
+yourself to the real location that Google maps showed you.</p>
+
+<p><img src="http://blog.signalleaf.com/images/blog_posts/google-maps.png" width="400"></p>
+
+<p>Podcasts in iTunes work the same way. iTunes lists your podcast
+like Google maps lists a business with an address and phone
+number. You can quickly and easily find a podcast that iTunes
+has listed, but your computer is only find the address and
+description of the podcast. The computer then has to travel to
+the actual podcast location &ndash;  where the RSS feed is hosted.</p>
+
+<p><img src="http://blog.signalleaf.com/images/blog_posts/getupandcode.png" width="400"></p>
+
+<p>When you subscribe to a podcast through iTunes, the podcast
+listing that you found in iTunes was only the map for your
+computer to find the actual podcast and subscribe to it.</p>
+
+<p>In the case of <a href="http://getupandcode.com">Get Up And Code</a>, as
+shown in the above screenshot, your computer will be redirected
+to the RSS feed hosted at <a href="http://GetUpAndCode.com">http://GetUpAndCode.com</a> to create the
+subscription and to get updates from their RSS feed.</p>
+
+<h2>So, How <em>Do</em> I Host My Podcast?</h2>
+
+<p>You can&rsquo;t host your podcast directly in iTunes, but there are
+plenty of services and other options for hosting. The choices
+come down to a few basic things:</p>
+
+<ul>
+<li>Do it all yourself</li>
+<li>Get a podcasting plugin for a blogging platform</li>
+<li>Pay for a podcast hosting service</li>
+</ul>
+
+
+<h4>DIY</h4>
+
+<p>The &ldquo;do-it-yourself&rdquo; crowd tends to be the software developer and
+techie person that can build the software and services needed
+for hosting. If you&rsquo;re not a software developer, I don&rsquo;t recommend
+this path. If you <em>are</em> a software developer, I still don&rsquo;t
+recommend this path. It&rsquo;s tedious and painful, and wrought with
+problems.</p>
+
+<h4>Blogging Plugins</h4>
+
+<p>If you&rsquo;re an avid blogger and you&rsquo;re already deeply entrenched
+in to WordPress or any of the other major blogging platforms, you
+can find plugins to make podcast hosting easy. You can upload a
+file, use the <code>[audio]</code> tag in your post and be done with it. But
+unless you&rsquo;re hosting your own servers and/or uploading your
+episodes to another service, you&rsquo;re probably going to run in to
+bandwidth and other limitations.</p>
+
+<p>Everyone that I have spoken to,
+that says they are hosting a podcast on WordPress, says they
+eventually ran in to problems. It can be done for small podcasts,
+and it can be cheap and easy. But with substantial growth in the
+populartiy of the podcast comes potential for substantial cost
+and problems.</p>
+
+<h4>Podcast Hosting Services</h4>
+
+<p>The last option listed, paying for a podcast host, is going to
+be the best option for any serious podcast. You don&rsquo;t want to
+manage file security. You don&rsquo;t want to deal with server
+configuration. You don&rsquo;t want to build traffic reports, manually.
+You just want to podcast.</p>
+
+<p>There are a lot of options for hosting your podcast episodes,
+including <a href="http://signalleaf.com">SignalLeaf</a>. I don&rsquo;t claim
+to be the one-and-only solution, or the one that fits everyone&rsquo;s
+needs. I do have a very simple, very flexible solution, though.
+If you&rsquo;re looking for a podcast host that focuses solely on
+providing storage, bandwidth, RSS feed generation and traffic
+analysis, then <a href="http://signalleaf.com">SignalLeaf</a> is probably
+a good choice for you.</p>
+
+<h2>Are You Looking For Podcast Hosting?</h2>
+
+<p>If you&rsquo;re looking for podcast hosting, you&rsquo;re reading the
+right blog! I&rsquo;ve got a great service that is already serving
+up some amazing podcasts, like <a href="http://getupandcode.com">Get Up And Code</a>.</p>
+
+<p>If you&rsquo;re looking for something more than what <a href="http://signalleaf.com">SignalLeaf</a>
+provies, though, I still want to help you. I want to understand
+your needs &ndash; what you&rsquo;re doing with your podcast, what blogging
+platform or existing website you already have, etc. I want to
+make sure you find the right solution, not just the
+&ldquo;everyone is using them&rdquo; solution.</p>
+
+<p><a href="http://signalleaf.com/help/contact" title="">Get in touch with me</a> and
+I&rsquo;ll do what I can to help you find the solution that is right
+for you, even if it isn&rsquo;t <a href="http://signalleaf.">SignalLeaf</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Welcome! And Episode 1 Of Signals And Leaves]]></title>
     <link href="http://blog.signalleaf.com/blog/2013/11/14/welcome-and-episode-1/"/>
     <updated>2013-11-14T20:20:00-06:00</updated>
     <id>http://blog.signalleaf.com/blog/2013/11/14/welcome-and-episode-1</id>
     <content type="html"><![CDATA[<p>Welcome to the new <a href="http://signalleaf.com">SignalLeaf</a> blog!
 Consider this the obligatory &ldquo;hello world!&rdquo; blog post for the
-new blog: Signals And Leaves</p>
+new blog: Signals And Leaves. Read on for a little bit of info
+on what SignalLeaf is, what it provides, and what I&rsquo;ll be doing
+with the Signals And Leaves podcast and blog!</p>
+
+<!--more-->
+
 
 <h2>About SignalLeaf</h2>
 

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: podcast | Signals And Leaves]]></title>
-  <link href="http://blog.signalleaf.com/blog/categories/podcast/atom.xml" rel="self"/>
+  <title><![CDATA[Category: streaming | Signals And Leaves]]></title>
+  <link href="http://blog.signalleaf.com/blog/categories/streaming/atom.xml" rel="self"/>
   <link href="http://blog.signalleaf.com/"/>
   <updated>2013-11-17T14:16:10-06:00</updated>
   <id>http://blog.signalleaf.com/</id>
@@ -148,86 +148,6 @@ make sure you find the right solution, not just the
 <p><a href="http://signalleaf.com/help/contact" title="">Get in touch with me</a> and
 I&rsquo;ll do what I can to help you find the solution that is right
 for you, even if it isn&rsquo;t <a href="http://signalleaf.">SignalLeaf</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Welcome! And Episode 1 Of Signals And Leaves]]></title>
-    <link href="http://blog.signalleaf.com/blog/2013/11/14/welcome-and-episode-1/"/>
-    <updated>2013-11-14T20:20:00-06:00</updated>
-    <id>http://blog.signalleaf.com/blog/2013/11/14/welcome-and-episode-1</id>
-    <content type="html"><![CDATA[<p>Welcome to the new <a href="http://signalleaf.com">SignalLeaf</a> blog!
-Consider this the obligatory &ldquo;hello world!&rdquo; blog post for the
-new blog: Signals And Leaves. Read on for a little bit of info
-on what SignalLeaf is, what it provides, and what I&rsquo;ll be doing
-with the Signals And Leaves podcast and blog!</p>
-
-<!--more-->
-
-
-<h2>About SignalLeaf</h2>
-
-<p><a href="http://signalleaf.com">SignalLeaf</a> is a small, but growing podcast audio hosting service.
-Other podcast hosts want to up-sell you on features like
-content management, advertising inserts, specialized podcasting
-apps, and other bits that you won&rsquo;t need. SignalLeaf is different
-in that I focus solely on four critical features that you need
-for your podcast:</p>
-
-<ol>
-<li>.mp3 file hosting</li>
-<li>RSS feed generation for podcast subscribers</li>
-<li>Bandwidth for streaming episodes to your listeners</li>
-<li>Traffic and analysis reports</li>
-</ol>
-
-
-<p>This pin-point focus on the services that SignalLeaf offers means
-you are free to build a website that fits your needs, without
-worrying about whether or not your podcast will fit in to it.
-You can use any platform and any tools to build your site, and
-embed podcast episodes from SignalLeaf, with ease!</p>
-
-<p>Already have a blog or a site? Setting up a blog with
-<a href="http://www.signalleaf.com/help/use-with-wordpress">WordPress</a>
-or <a href="http://www.signalleaf.com/help/use-with-tumblr">Tumblr</a>?
-Building a site on your own, using the
-tools and skills that you already posess will not stop you from
-adding a podcast. Just grab
-<a href="http://www.signalleaf.com/help/use-the-signalleaf-media-player">the emded code</a>
-or <a href="http://www.signalleaf.com/help/use-your-own-media-player">host the episode in your own media player</a>
-on your site!</p>
-
-<p>When you&rsquo;re ready to get started with the easiest way to host your
-podcast audio and RSS feed, head over to <a href="http://signalleaf.com">SignalLeaf.com</a>
-and sign up for you free trial!</p>
-
-<h2>About The Blog</h2>
-
-<p>Signals And Leaves is a blog about podcasting, building and running
-a podcasting service, and everything that entails. You&rsquo;ll hear tips
-and tricks for podcasting. You&rsquo;ll find podcast episodes that SignalLeaf
-hosts and produces. You&rsquo;ll get pointers to the right equipment, and
-see a lot of other bits about hosting, producing and making the most of
-a podcast.</p>
-
-<p>Subscribe to <a href="http://blog.signalleaf.com/atom.xml" title="">the blog RSS feed</a>
-to keep up to date with the latest and greatest in podcast audio hosting,
-tips and tricks, and other information to keep you on the forefront
-of podcasting!</p>
-
-<h2>About The Podcast</h2>
-
-<p>In addition to this being a blog, I&rsquo;m also running a podcast by the
-same name: Signals And Leaves. I&rsquo;ve only recorded one episode so far,
-but will be recording and publishing additional episodes, soon.</p>
-
-<iframe src="http://www.signalleaf.com/embed/523736d466f52c0200000003/52374abd66f52c0200000005/" width="400" height="70" frameborder="0"></iframe>
-
-
-<p>Be sure to subscribe to the podcast through <a href="http://www.signalleaf.com/podcasts/523736d466f52c0200000003/rss">the RSS feed</a>
-directly, or <a href="http://www.signalleaf.com/podcasts/523736d466f52c0200000003/rss">subscribe through iTunes</a>
-to hear the latest on what&rsquo;s happening with SignalLeaf.</p>
 ]]></content>
   </entry>
   
