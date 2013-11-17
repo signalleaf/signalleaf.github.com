@@ -14,10 +14,9 @@ plan for hosting it. The response I got was surpising:
 > we have not yet gotten to the question of hosting the podcast yet.
 > i was assuming we would do it though iTunes, but i haven't thought farther than that.
 
-While I was surprised at first, this seems to be an
-common misunderstang about iTunes: Your subscribers find
-you through iTunes, right? So, isn't that where you host your
-podcast?
+This seems to be an common misunderstang about iTunes, 
+unfortunately. Your subscribers find you through iTunes, right? 
+So, isn't that where you host your podcast?
 
 <!--more-->
 
