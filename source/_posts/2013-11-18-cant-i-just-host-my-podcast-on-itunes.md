@@ -7,58 +7,48 @@ external-url:
 categories: [podcast, hosting, itunes, streaming, storage, rss]
 ---
 
-I was talking with someone via email about a podcast 
-they are starting. This person clearly had all of the right tools
-and skills for recording and editing the podcast, as they were
-part of a band that has recorded and released albums. During the
-conversation, I asked if they already had a plan for how they
-were going to host the podcast. The response I got was not what
-I expected:
+I was talking with someone about a podcast 
+they are starting, recently, and I asked if they already had a 
+plan for hosting it. The response I got was surpising:
 
 > we have not yet gotten to the question of hosting the podcast yet.
 > i was assuming we would do it though iTunes, but i haven't thought farther than that.
 
 While I was surprised at first, this seems to be an
-unfortunately common mistake. After all, your subscribers find
-you through iTunes, right? So isn't that where you host your
+common misunderstang about iTunes: Your subscribers find
+you through iTunes, right? So, isn't that where you host your
 podcast?
 
 <!--more-->
 
-## So, iTunes Won't Host My Podcast?
-
-I can understand this person's perspective on iTunes. They
-are in a band and this band sells music through iTunes. In 
-that scenario, iTunes hosts the audio files for the song and 
-album sales. So, why wouldn't it work the same way with podcasts,
-too?
-
-Sorry, no - podcasts work a bit different than other audio in 
-distribution and hosting. Instead of uploading podcast episodes 
-directly to iTunes, it is only a network for finding and 
-subscribing to podcast RSS feeds. 
+Sorry, but no - podcasts distribution doesn't work like that. 
+Instead of uploading podcast episodes directly to iTunes, it's 
+only a network for finding and subscribing to podcast RSS feeds.
+You still need your own host, bandwidth for streaming and RSS
+for your podcast.
 
 ## iTunes And Google Maps
 
-Think of it like Google Maps... you can quickly and easily find 
-an address and a business on Google maps, but Google maps won't 
+Think of iTunes like Google Maps for podcasts. With Google
+Maps, you can quickly and easily find 
+an address and a business, but Google Maps won't actually
 take you there. You have to walk, drive, fly, or otherwise get 
-yourself to the real location that Google maps showed you. 
+yourself to the real location that the map shows you. 
 
 <img src="/images/blog_posts/google-maps.png" width="400">
 
-Podcasts in iTunes work the same way. iTunes lists your podcast 
-like Google maps lists a business with an address and phone 
+Podcasts in iTunes work the same way. iTunes will list your podcast 
+like Google Maps lists a business with an address and phone 
 number. You can quickly and easily find a podcast that iTunes 
-has listed, but your computer is only find the address and 
+has listed, but your computer is only finding the address and 
 description of the podcast. The computer then has to travel to 
 the actual podcast location -  where the RSS feed is hosted. 
-
-<img src="/images/blog_posts/getupandcode.png" width="400">
 
 When you subscribe to a podcast through iTunes, the podcast 
 listing that you found in iTunes was only the map for your 
 computer to find the actual podcast and subscribe to it.
+
+<img src="/images/blog_posts/getupandcode.png" width="400">
 
 In the case of [Get Up And Code](http://getupandcode.com), as
 shown in the above screenshot, your computer will be redirected
@@ -81,7 +71,7 @@ The "do-it-yourself" crowd tends to be the software developer and
 techie person that can build the software and services needed
 for hosting. If you're not a software developer, I don't recommend
 this path. If you *are* a software developer, I still don't
-recommend this path. It's tedious and painful, and wrought with
+recommend this path. It's tedious and painful, and frought with
 problems.
 
 #### Blogging Plugins
@@ -110,27 +100,20 @@ configuration. You don't want to build traffic reports, manually.
 You just want to podcast.
 
 There are a lot of options for hosting your podcast episodes,
-including [SignalLeaf](http://signalleaf.com). I don't claim
+including SignalLeaf. I don't claim
 to be the one-and-only solution, or the one that fits everyone's
 needs. I do have a very simple, very flexible solution, though.
 If you're looking for a podcast host that focuses solely on
 providing storage, bandwidth, RSS feed generation and traffic
-analysis, then [SignalLeaf](http://signalleaf.com) is probably
-a good choice for you.
+analysis, then **SignalLeaf is a great choice for you**.
 
-## Are You Looking For Podcast Hosting?
+## Start Your Podcast Today!
 
-If you're looking for podcast hosting, you're reading the
-right blog! I've got a great service that is already serving
-up some amazing podcasts, like [Get Up And Code](http://getupandcode.com).
+If you're starting a podcast, or are looking for a new host,
+then you're in the right place! SignalLeaf offers a range
+of flexible plans, with top-of-the-line podcast hosting and
+streaming services.
 
-If you're looking for something more than what [SignalLeaf](http://signalleaf.com)
-provies, though, I still want to help you. I want to understand
-your needs - what you're doing with your podcast, what blogging
-platform or existing website you already have, etc. I want to
-make sure you find the right solution, not just the 
-"everyone is using them" solution.
-
-[Get in touch with me](http://signalleaf.com/help/contact") and
-I'll do what I can to help you find the solution that is right
-for you, even if it isn't [SignalLeaf](http://signalleaf.).
+**[Start Your Free Trial, Today!](http://signalleaf.com/plans)** 
+You can get your podcast submitted to the iTunes "map" and 
+get subscribers driving to your new address, in minutes!
