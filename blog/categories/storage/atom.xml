@@ -4,7 +4,7 @@
   <title><![CDATA[Category: storage | Signals And Leaves]]></title>
   <link href="http://blog.signalleaf.com/blog/categories/storage/atom.xml" rel="self"/>
   <link href="http://blog.signalleaf.com/"/>
-  <updated>2013-11-17T14:36:13-06:00</updated>
+  <updated>2013-11-17T14:45:45-06:00</updated>
   <id>http://blog.signalleaf.com/</id>
   <author>
     <name><![CDATA[Derick Bailey]]></name>
@@ -18,7 +18,7 @@
     <link href="http://blog.signalleaf.com/blog/2013/11/18/cant-i-just-host-my-podcast-on-itunes/"/>
     <updated>2013-11-18T08:20:00-06:00</updated>
     <id>http://blog.signalleaf.com/blog/2013/11/18/cant-i-just-host-my-podcast-on-itunes</id>
-    <content type="html"><![CDATA[<p>I was talking with someone via email, recently, about a podcast
+    <content type="html"><![CDATA[<p>I was talking with someone via email about a podcast
 they are starting. This person clearly had all of the right tools
 and skills for recording and editing the podcast, as they were
 part of a band that has recorded and released albums. During the
@@ -40,11 +40,12 @@ podcast?</p>
 <h2>So, iTunes Won&rsquo;t Host My Podcast?</h2>
 
 <p>I can understand this person&rsquo;s perspective on iTunes. They
-are in a band. This band sells music through iTunes. iTunes
-hosts the audio files for those song and album sales. Why wouldn&rsquo;t
-it work the same way with podcasts?</p>
+are in a band and this band sells music through iTunes. In
+that scenario, iTunes hosts the audio files for the song and
+album sales. So, why wouldn&rsquo;t it work the same way with podcasts,
+too?</p>
 
-<p>Sorry, no &ndash; podcasts work a bit different than other audio, in
+<p>Sorry, no &ndash; podcasts work a bit different than other audio in
 distribution and hosting. Instead of uploading podcast episodes
 directly to iTunes, it is only a network for finding and
 subscribing to podcast RSS feeds.</p>
