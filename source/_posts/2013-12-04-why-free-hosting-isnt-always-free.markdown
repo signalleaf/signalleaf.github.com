@@ -6,9 +6,9 @@ comments: true
 categories: 
 ---
 
-I found a question over on the StackExchange network recently, regarding
-podcast hosting and the use of a CDN, with one answer suggesting
-the use of SoundCloud for hosting.
+I found [a question on the StackExchange network](http://webmasters.stackexchange.com/questions/52046/podcast-site-serve-audio-files-with-cdn/55791)
+regarding podcast hosting and the use of a CDN, with one answer 
+suggesting the use of SoundCloud for hosting.
 
 > I am managing a small podcast website hosted on a shared server. Currently there are only eight or nine episodes, each of which are about 50 MB, so bandwidth is not really an issue at the moment.
 > 
@@ -16,7 +16,7 @@ the use of SoundCloud for hosting.
 > 
 > I took a quick look at it before, and it seems you have to have your whole site routed (is that the right term?) through the CDN rather than just specific files or filetypes. I'd like some clarification on this.
 
-It's an interesting question, if you ask me, but one that
+It's an interesting question and idea, but one that
 comes with a lot of potential problems.
 
 <!-- more -->
