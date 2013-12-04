@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "When Free Hosting Isn't \"Free\""
-date: 2013-12-04 15:31
+date: 2013-12-04 21:31
 comments: true
-categories: 
+categories: [hosting, paid service, free service, freemium, free trial, cdn]
 ---
 
 I found [a question on the StackExchange network](http://webmasters.stackexchange.com/questions/52046/podcast-site-serve-audio-files-with-cdn/55791)
