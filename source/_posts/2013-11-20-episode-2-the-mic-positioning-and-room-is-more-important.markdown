@@ -3,7 +3,7 @@ layout: post
 title: "Episode 2: Mic Positioning And Room Are More Important"
 date: 2013-11-20 8:00
 comments: true
-categories: [beginner, mic, quality, recording, podcasting, tips]
+categories: [beginner, mic, quality, recording, podcast, tips]
 ---
 
 Do you think the quality of the microphone is going to make
