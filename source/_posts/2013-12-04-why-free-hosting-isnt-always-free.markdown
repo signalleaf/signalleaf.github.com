@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "When Free Hosting Isn't \"Free\""
+title: "Why Free Hosting Isn't \"Free\""
 date: 2013-12-04 21:31
 comments: true
 categories: [hosting, paid service, free service, freemium, free trial, cdn]
