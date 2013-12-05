@@ -20,7 +20,14 @@ div.center {
 }
 
 .header-links {
-  font-size: 0.6em;
+  font-size: 0.7em;
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      height: 2em;
+    }
+  }
   a { 
     color: #fff;
     font-family: Sans-Serif;
@@ -33,6 +40,14 @@ div.center {
 
     i {
       color: #eb5;
+    }
+
+    &.twitter i {
+      color: #bdf;
+    }
+
+    &.twitter:hover {
+      color: #bdf;
     }
   }
 }
