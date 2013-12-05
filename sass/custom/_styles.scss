@@ -20,7 +20,7 @@ div.center {
 }
 
 .header-links {
-  font-size: 0.5em;
+  font-size: 0.6em;
   a { 
     color: #fff;
     font-family: Sans-Serif;
@@ -28,6 +28,10 @@ div.center {
     text-decoration: none;
 
     &:hover {
+      color: #eb5;
+    }
+
+    i {
       color: #eb5;
     }
   }
