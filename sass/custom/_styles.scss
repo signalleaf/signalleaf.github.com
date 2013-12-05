@@ -18,3 +18,17 @@ div.center {
   padding: 5px;
   height: 100px;
 }
+
+.header-links {
+  font-size: 0.5em;
+  a { 
+    color: #fff;
+    font-family: Sans-Serif;
+    transition: color 0.25s ease;
+    text-decoration: none;
+
+    &:hover {
+      color: #eb5;
+    }
+  }
+}
