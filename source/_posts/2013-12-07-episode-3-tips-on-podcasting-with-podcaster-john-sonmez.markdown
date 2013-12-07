@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Episode 3: Tips On Podcasting With Podcaster, John Sonmez"
-date: 2013-12-09 8:00
+date: 2013-12-07 8:00
 comments: true
 categories: [podcast, tips, tricks, interview, lessons learned, how to, starting]
 ---
