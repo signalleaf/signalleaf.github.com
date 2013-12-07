@@ -21,20 +21,21 @@ a roll with a podcast.
 
 ## Podcast Pro-Tip 
 
-Use the "clap trick" to sync separate tracks, recording from
-different computer. Once person counts to 3, and on 3, everyone
+Use the "clap trick" to sync separate tracks recorded from
+different computers. One person counts to 3, and on 3, everyone
 in the podcast claps. Then you can sync the separate audio
 tracks to the clap at the beginning.
 
-Listen to the first minute of the episode for a demonstration
-of this technique.
+**Listen to the first minute of the episode for a demonstration
+of this technique!**
 
 ## Show Notes
 
-Niche-down to find your target audience
-* don't try to be everything to everyone
+Niche-down to find your target audience - don't try to be 
+everything to everyone.
 	
-Coordination with cohost requires planning and commitment
+**Coordination with cohost requires planning and commitment**
+
 * have a backup episode in case you can't make it for some reason
 * decide on a release cadence that you can handle, and stick with it no matter what
 
