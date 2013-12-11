@@ -4,7 +4,7 @@ title: "Can't I Just Host My Podcast on iTunes?"
 date: 2013-11-18 8:20am
 comments: true
 external-url:
-categories: [beginner, podcast, hosting, itunes, streaming, storage, rss]
+categories: [beginner, podcasting, hosting, itunes, streaming, storage, rss]
 ---
 
 I was talking with someone about a podcast 

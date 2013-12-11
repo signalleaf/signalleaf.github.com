@@ -3,7 +3,7 @@ layout: post
 title: "Audio vs File Compression, And Why You Need Both"
 date: 2013-12-10 20:29
 comments: true
-categories: 
+categories: [audio compression, file compression, bit-rate, quality]
 ---
 
 Bandwidth for streaming podcasts is expensive, and using it
