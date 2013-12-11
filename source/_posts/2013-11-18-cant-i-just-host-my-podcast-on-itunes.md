@@ -70,7 +70,7 @@ The "do-it-yourself" crowd tends to be the software developer and
 techie person that can build the software and services needed
 for hosting. If you're not a software developer, I don't recommend
 this path. If you *are* a software developer, I still don't
-recommend this path. It's tedious and painful, and frought with
+recommend this path. It's tedious and painful, and fraught with
 problems.
 
 #### Blogging Plugins
@@ -78,7 +78,7 @@ problems.
 If you're an avid blogger and you're already deeply entrenched
 in to WordPress or any of the other major blogging platforms, you
 can find plugins to make podcast hosting easy. You can upload a
-file, use the `[audio]` tag in your post and be done with it. But
+file, use the `<audio>` tag in your post and be done with it. But
 unless you're hosting your own servers and/or uploading your 
 episodes to another service, you're probably going to run in to
 bandwidth and other limitations. 
