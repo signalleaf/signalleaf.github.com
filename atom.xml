@@ -4,7 +4,7 @@
   <title><![CDATA[Signals And Leaves]]></title>
   <link href="http://blog.signalleaf.com/atom.xml" rel="self"/>
   <link href="http://blog.signalleaf.com/"/>
-  <updated>2013-12-07T10:45:01-06:00</updated>
+  <updated>2013-12-10T21:08:53-06:00</updated>
   <id>http://blog.signalleaf.com/</id>
   <author>
     <name><![CDATA[Derick Bailey]]></name>
@@ -14,10 +14,172 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Audio vs File Compression, And Why You Need Both]]></title>
+    <link href="http://blog.signalleaf.com/blog/2013/12/10/audio-vs-file-compression/"/>
+    <updated>2013-12-10T20:29:00-06:00</updated>
+    <id>http://blog.signalleaf.com/blog/2013/12/10/audio-vs-file-compression</id>
+    <content type="html"><![CDATA[<p>Bandwidth for streaming podcasts is expensive, and using it
+up with podcast audio that is too quiet, then too loud, then
+too quiet again is a giant waste of money. <strong>Fear not!</strong> Just
+toss in a little bit of compression and you can <strong>save money,
+conserve bandwidth, and please the ears of your listeners</strong>
+all at the same time.</p>
+
+<p>But&hellip; audio compression, or file compression? Wait, what&rsquo;s
+the difference? I&rsquo;m already exporting to .mp3 files, and
+they&rsquo;re compressed, right? Yes, but that&rsquo;s file compression.
+Audio compression is something entirely different, and is
+just as important. Knowing when you have enough compression
+of both kinds is also important, and knowing what they are
+and how they affect your podcast is critical.</p>
+
+<!-- more -->
+
+
+<h2>File Compression</h2>
+
+<p>Nearly everyone that knows how to use a computer is familiar
+with file compression. You&rsquo;ve seen it and its effects more
+times than you can count. Ever had a .zip file? Or a .jpg
+file (hint: you&rsquo;re looking at some on this site)? These file
+extensions are indications of file compression protocols.
+Podcasts that use .mp3 files also use compression. Each of
+these compression types offers something different, and
+specialized, and there are still hundreds (thousands?) of
+other file compression types around.</p>
+
+<p><img src="http://blog.signalleaf.com/images/blog_posts/mp3-export-settings.png"></p>
+
+<p>Delivering audio in a .mp3 file allows files to be much
+smaller than other uncompressed formats. But this comes at
+a cost. The mp3 format uses a lossy compression algorithm:
+a means of compression that reduces the audio quality in order
+to reduce the amount of information being stored in the file.
+Smaller files come from less information being stored.</p>
+
+<h4>How Much File Compression?</h4>
+
+<p>The effect of a .mp3 file saved at a very low bit rate
+is terrible sounding audio in some cases, but not in others.
+This is what makes compression somewhat tricky.</p>
+
+<p>If you&rsquo;re
+recording human voices for a podcast, for example, you can
+get away with a much lower quality file (lower bit rate).
+There isn&rsquo;t a lot of dynamic range of content, or overlapping
+content in a human voice &ndash; even with multiple people
+speaking at the same time.</p>
+
+<p>When recording musical
+instruments, however, low quality audio becomes apparent
+very quickly. If you choose a low bit rate for music,
+high pitch sounds become distorted in odd ways
+and low pitch sounds become muffled and muted. Mid range
+sounds can do ok, still, but get mixed up with each other when
+multiple instruments are in the same frequency range.  Music
+demands a higher bit rate, but not alway the highest.</p>
+
+<h4>Avoid &ldquo;A Copy Of A Copy&rdquo; Syndrome</h4>
+
+<p>One thing you also need to be aware of: if you&rsquo;re importing
+existing audio files in to your screencast, be sure they are
+high quality to start with.</p>
+
+<p>Why, you might ask? Have you ever made a photocopy of a
+photocopy of a photocopy? Compressing already compressed audio
+has the same effect. Starting with high quality sound will
+ensure the file version sounds as good as possible.</p>
+
+<h2>Audio Compression</h2>
+
+<p>Audio compression can also have a dramatic effect on the
+quality of audio, but in a very different way.</p>
+
+<p><img src="http://blog.signalleaf.com/images/blog_posts/garage-band-compression-settings.png"></p>
+
+<p>If you&rsquo;ve ever heard a song or a podcast or a radio station
+where literally everything came out at exactly the same
+volume level &ndash; not matter whether the person was wispering,
+or the music was supposed to be subdued and quiet &ndash; you&rsquo;ve
+heard the ill-effects of over-compressing audio.</p>
+
+<p>On the opposite end of the spectrum, is classical music. If
+you&rsquo;ve ever tried to listen to classical music in a car or
+on public transport systems, you&rsquo;ve probably been frustrated
+by the near impossible to hear quiet moments followed by
+ear-splitting loud moments. This is the effect of no audio
+compression at all.</p>
+
+<h4>Controlling Signal Levels (Volume)</h4>
+
+<p>Audio compression is a means of flattening the signal level
+for the audio track(s) being compressed. It makes the quiet
+parts louder so you can still hear them, and makes the loud
+parts quieter so they don&rsquo;t blow your ear drums out.</p>
+
+<p>Too much compression makes everything sound flat. It removes
+all of the dynamics of the audio, preventing the natural
+ebs and flows of volume differences. It tends to make things
+sound over-produced. Radio stations tends to use a ton of
+audio compression to compensate for road noise and other
+ambient noises in the typical radio lisening environment:
+transportation. Classical music, on the other hand, tends
+to opt for purity and intent of the conductor and
+orechestra, leaving off any audio compression of any kind.
+Because of this, classical music is usally best experienced
+in quiet places.</p>
+
+<h4>Audio Compression And Podcasts</h4>
+
+<p>You need a minimum amount of audio compression in your
+podcasts &ndash; whether it&rsquo;s a music podcast or a spoken / voice
+podcast. Without it, your podcast will simply come out too
+quiet most of the time, with sudden and bothersome loud
+moments. But at the same time, you don&rsquo;t want to over-compress
+your audio. This tends to create the appearance of yelling
+all the time, because there are no dyanmics or variance in
+your volume levels.</p>
+
+<h4>Learning Through Practice</h4>
+
+<p>There are no right and wrong settings for everyone, when
+it comes to audio compression, though. Each persons voice
+and speech patterns are unique, creating a need for variance
+in how much compression is used. You&rsquo;ll want to practice some
+with different levels of compression to find out what
+works best for you.</p>
+
+<h2>Where Do I Go From Here?</h2>
+
+<p>The topics of what settings to change for what purpose in
+both audio compression and file compression are worthy of
+their own blog posts. Getting the high level idea of what
+these things are and how the affect your podcast is an
+important step in the right direction, though. Without this
+basic understanding, having all the knowledge of what settings
+to change won&rsquo;t mean much.</p>
+
+<p>For tips and advice on audio compression settings,
+check out <a href="https://gist.github.com/scottburton11/3222152">Scott Burton&rsquo;s post on audio compression</a>.
+This is a great starting point with advice on what the different
+settings for audio compression will do. This is a post that
+deserves your attention &ndash; one that I wanted to write, but
+would rather share Scott&rsquo;s quality work.</p>
+
+<p>For info on file compression, bit rates and the effects that
+they have on your .mp3 file exports, <strong>be sure to subscribe
+the mailing list, below</strong> and the RSS Feed for this blog!
+I&rsquo;ll be recording a sample podcast soon, and running it
+through various bit rates for .mp3 file export. You won&rsquo;t
+want to miss that post!</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Episode 3: Tips On Podcasting With Podcaster, John Sonmez]]></title>
-    <link href="http://blog.signalleaf.com/blog/2013/12/09/episode-3-tips-on-podcasting-with-podcaster-john-sonmez/"/>
-    <updated>2013-12-09T08:00:00-06:00</updated>
-    <id>http://blog.signalleaf.com/blog/2013/12/09/episode-3-tips-on-podcasting-with-podcaster-john-sonmez</id>
+    <link href="http://blog.signalleaf.com/blog/2013/12/07/episode-3-tips-on-podcasting-with-podcaster-john-sonmez/"/>
+    <updated>2013-12-07T08:00:00-06:00</updated>
+    <id>http://blog.signalleaf.com/blog/2013/12/07/episode-3-tips-on-podcasting-with-podcaster-john-sonmez</id>
     <content type="html"><![CDATA[<p>In this episode, I have the pleasure of interview my friend
 and fellow podcaster, John Sonmez from <a href="http://simpleprogrammer.com">SimpleProgrammer.com</a>.
 We talk about his podcast at <a href="http://getupandcode.com">GetupAndCode.com</a>
@@ -449,7 +611,7 @@ come down to a few basic things:</p>
 techie person that can build the software and services needed
 for hosting. If you&rsquo;re not a software developer, I don&rsquo;t recommend
 this path. If you <em>are</em> a software developer, I still don&rsquo;t
-recommend this path. It&rsquo;s tedious and painful, and frought with
+recommend this path. It&rsquo;s tedious and painful, and fraught with
 problems.</p>
 
 <h4>Blogging Plugins</h4>
@@ -457,7 +619,7 @@ problems.</p>
 <p>If you&rsquo;re an avid blogger and you&rsquo;re already deeply entrenched
 in to WordPress or any of the other major blogging platforms, you
 can find plugins to make podcast hosting easy. You can upload a
-file, use the <code>[audio]</code> tag in your post and be done with it. But
+file, use the <code>&lt;audio&gt;</code> tag in your post and be done with it. But
 unless you&rsquo;re hosting your own servers and/or uploading your
 episodes to another service, you&rsquo;re probably going to run in to
 bandwidth and other limitations.</p>

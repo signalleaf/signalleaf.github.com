@@ -4,7 +4,7 @@
   <title><![CDATA[Category: storage | Signals And Leaves]]></title>
   <link href="http://blog.signalleaf.com/blog/categories/storage/atom.xml" rel="self"/>
   <link href="http://blog.signalleaf.com/"/>
-  <updated>2013-12-07T10:45:01-06:00</updated>
+  <updated>2013-12-10T21:08:53-06:00</updated>
   <id>http://blog.signalleaf.com/</id>
   <author>
     <name><![CDATA[Derick Bailey]]></name>
@@ -85,7 +85,7 @@ come down to a few basic things:</p>
 techie person that can build the software and services needed
 for hosting. If you&rsquo;re not a software developer, I don&rsquo;t recommend
 this path. If you <em>are</em> a software developer, I still don&rsquo;t
-recommend this path. It&rsquo;s tedious and painful, and frought with
+recommend this path. It&rsquo;s tedious and painful, and fraught with
 problems.</p>
 
 <h4>Blogging Plugins</h4>
@@ -93,7 +93,7 @@ problems.</p>
 <p>If you&rsquo;re an avid blogger and you&rsquo;re already deeply entrenched
 in to WordPress or any of the other major blogging platforms, you
 can find plugins to make podcast hosting easy. You can upload a
-file, use the <code>[audio]</code> tag in your post and be done with it. But
+file, use the <code>&lt;audio&gt;</code> tag in your post and be done with it. But
 unless you&rsquo;re hosting your own servers and/or uploading your
 episodes to another service, you&rsquo;re probably going to run in to
 bandwidth and other limitations.</p>
