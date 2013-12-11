@@ -35,6 +35,8 @@ these compression types offers something different, and
 specialized, and there are still hundreds (thousands?) of
 other file compression types around. 
 
+<img src="/images/blog_posts/mp3-export-settings.png">
+
 Delivering audio in a .mp3 file allows files to be much
 smaller than other uncompressed formats. But this comes at
 a cost. The mp3 format uses a lossy compression algorithm: 
@@ -79,6 +81,8 @@ ensure the file version sounds as good as possible.
 
 Audio compression can also have a dramatic effect on the
 quality of audio, but in a very different way.
+
+<img src="/images/blog_posts/garage-band-compression-settings.png">
 
 If you've ever heard a song or a podcast or a radio station
 where literally everything came out at exactly the same
@@ -149,9 +153,9 @@ settings for audio compression will do. This is a post that
 deserves your attention - one that I wanted to write, but
 would rather share Scott's quality work.
 
-For file compression, bit rates and the effects that they
-have on your .mp3 file exports, though, be sure to subscribe
-to the RSS feed for this blog or sign up for the mailing list!
+For info on file compression, bit rates and the effects that 
+they have on your .mp3 file exports, **be sure to subscribe
+the mailing list, below** and the RSS Feed for this blog!
 I'll be recording a sample podcast soon, and running it 
 through various bit rates for .mp3 file export. You won't
 want to miss that post!
