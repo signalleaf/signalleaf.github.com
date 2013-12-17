@@ -51,3 +51,63 @@ div.center {
     }
   }
 }
+
+.buy-now-button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bff095;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bff095;
+	box-shadow:inset 0px 1px 0px 0px #bff095;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #63b31d), color-stop(1, #346b08) );
+	background:-moz-linear-gradient( center top, #63b31d 5%, #346b08 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#63b31d', endColorstr='#346b08');
+	background-color:#63b31d;
+	-webkit-border-top-left-radius:10px;
+	-moz-border-radius-topleft:10px;
+	border-top-left-radius:10px;
+	-webkit-border-top-right-radius:10px;
+	-moz-border-radius-topright:10px;
+	border-top-right-radius:10px;
+	-webkit-border-bottom-right-radius:10px;
+	-moz-border-radius-bottomright:10px;
+	border-bottom-right-radius:10px;
+	-webkit-border-bottom-left-radius:10px;
+	-moz-border-radius-bottomleft:10px;
+	border-bottom-left-radius:10px;
+	text-indent:0;
+	border:1px solid #268a16;
+	display:block;
+	color:#fbfff7;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	font-style:normal;
+	height:65px;
+	line-height:65px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #131a0d;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0px auto;
+
+  &:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #346b08), color-stop(1, #63b31d) );
+    background:-moz-linear-gradient( center top, #346b08 5%, #63b31d 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#346b08', endColorstr='#63b31d');
+    background-color:#346b08;
+  }
+
+  &:active {
+    position:relative;
+    top:1px;
+  }
+}
+
+a.buy-now-button {
+  color: #fff;
+}
+
+.center {
+  display: block;
+  text-align: center;
+  margin: 0px auto;
+}
