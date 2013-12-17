@@ -12,7 +12,7 @@ No problem! With nothing more than a laptop and an internet
 connection, you can join the new media revolution and publish 
 your voice, your thoughts and your opinions to the world!
 
-<a href="https://leanpub.com/prepare-produce-publish/purchases/new" target="_blank" class="center"><img src="/images/prepare-produce-publish-cover.png"></a>
+<a href="https://leanpub.com/prepare-produce-publish" target="_blank" class="center"><img src="/images/prepare-produce-publish-cover.png"></a>
 
 ## Join The New Media Revolution
 
@@ -48,4 +48,4 @@ climb than you think! Find out just how easy it is to get your
 podcast recorded, uploaded and embedded in your website and RSS 
 feed, today!
 
-<a href="https://leanpub.com/prepare-produce-publish/purchases/new" class="buy-now-button" target="_blank">Buy The Book! Get Your Podcast Published!</a>
+<a href="https://leanpub.com/prepare-produce-publish" class="buy-now-button" target="_blank">Buy The Book! Get Your Podcast Published!</a>
