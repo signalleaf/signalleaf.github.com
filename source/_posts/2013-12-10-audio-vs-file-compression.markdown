@@ -154,8 +154,8 @@ deserves your attention - one that I wanted to write, but
 would rather share Scott's quality work.
 
 For info on file compression, bit rates and the effects that 
-they have on your .mp3 file exports, **be sure to subscribe
-the mailing list, below** and the RSS Feed for this blog!
-I'll be recording a sample podcast soon, and running it 
-through various bit rates for .mp3 file export. You won't
-want to miss that post!
+they have on your .mp3 file exports, check out 
+[the post on MP3 bit rates, file size, and audio quality](/blog/2013/12/18/mp3-bit-rates/).
+In this post, I export the same podcast episode using 10
+different bit rates (5 constant, and 5 variable) and look
+at the results.
