@@ -4,7 +4,7 @@
   <title><![CDATA[Signals And Leaves]]></title>
   <link href="http://blog.signalleaf.com/atom.xml" rel="self"/>
   <link href="http://blog.signalleaf.com/"/>
-  <updated>2013-12-17T22:31:48-06:00</updated>
+  <updated>2013-12-17T22:38:28-06:00</updated>
   <id>http://blog.signalleaf.com/</id>
   <author>
     <name><![CDATA[Derick Bailey]]></name>
@@ -387,11 +387,11 @@ deserves your attention &ndash; one that I wanted to write, but
 would rather share Scott&rsquo;s quality work.</p>
 
 <p>For info on file compression, bit rates and the effects that
-they have on your .mp3 file exports, <strong>be sure to subscribe
-the mailing list, below</strong> and the RSS Feed for this blog!
-I&rsquo;ll be recording a sample podcast soon, and running it
-through various bit rates for .mp3 file export. You won&rsquo;t
-want to miss that post!</p>
+they have on your .mp3 file exports, check out
+<a href="http://blog.signalleaf.com/blog/2013/12/18/mp3-bit-rates/">the post on MP3 bit rates, file size, and audio quality</a>.
+In this post, I export the same podcast episode using 10
+different bit rates (5 constant, and 5 variable) and look
+at the results.</p>
 ]]></content>
   </entry>
   
