@@ -4,7 +4,7 @@
   <title><![CDATA[Category: file compression | Signals And Leaves]]></title>
   <link href="http://blog.signalleaf.com/blog/categories/file-compression/atom.xml" rel="self"/>
   <link href="http://blog.signalleaf.com/"/>
-  <updated>2013-12-20T13:01:13-06:00</updated>
+  <updated>2013-12-20T16:08:58-06:00</updated>
   <id>http://blog.signalleaf.com/</id>
   <author>
     <name><![CDATA[Derick Bailey]]></name>
@@ -169,9 +169,43 @@ anything above it. At least with spoken podcasts I don&rsquo;t see
 any need to ever use anything above 128K Constant rate, or
 the near equivalent quality of 80K-120K Variable rate.</p>
 
-<h2>Final Recommendation 80K-120K Variable Rate</h2>
+<h2>Revised Recommendation: 96K or 128K Constant Bit Rate</h2>
 
-<p>If I were going to recommend one signal bit rate to encode
+<p>I had originally written this post to recommend 80K-120K
+Variable Bit rate, based on the audio quality and file size.
+But I need to revise that based on some conversation with
+<a href="http://thepodcastersstudio.com/">Ray Ortega</a> and Rob Walch
+(from LibSyn) over on <a href="https://plus.google.com/u/0/+DerickBailey/posts/AWQvwWf5c4n">my Google+ post</a>.</p>
+
+<p>Rob points out several problems with audio players as recent
+as IOS6, and links to several posts where problems and solutions
+are discussed.</p>
+
+<ul>
+<li><a href="http://forum.audacityteam.org/viewtopic.php?f=16&amp;t=4249">MP3 Export, CBR=Good VBR=Bad Length</a> (from the Audacity forums)</li>
+<li><a href="http://www.schillmania.com/projects/soundmanager2/doc/technotes/">SoundManager 2: Technical Nodes</a></li>
+</ul>
+
+
+<p>In the SoundManager 2 note, specifically, Rob points out the
+following for the SoundManager 2, HTML5 player.</p>
+
+<blockquote><p>&ldquo;MP3 Format Caveats</p>
+
+<p>Additionally, some very low and very high bitrate MP3s, and Variable Bitrate (VBR) MP3s may play either too quickly or too slowly (see &ldquo;the chipmunk problem&rdquo;); if you are encountering this issue, try re-encoding at a different bitrate (between 64 kbps and 192 kbps, for example.) Using Constant Bitrate (CBR) encoding may also alleviate this problem."</p></blockquote>
+
+<p>Given that, I&rsquo;m going to revise my recommendation and suggest
+<strong>using 128K or 96K Constant Bit Rate</strong> unless you have a good
+reason not to.</p>
+
+<h4>My Original Recommendation</h4>
+
+<p>Even after revising my recommendation, I&rsquo;m going to leave
+this note here, as to what my original recommendation was. At
+the very least, it will let you the reader see where I was
+coming from originally vs now.</p>
+
+<blockquote><p>If I were going to recommend one signal bit rate to encode
 your podcast .mp3 files, it would be 80K-120K Variable bit
 rate. The audio quality vs file size is superb, with little
 to not distortion or wobbles in a mostly spoken podcast.</p>
@@ -182,7 +216,9 @@ layers of sound found in music can present some warbles
 and distortion on the high end frequencies at lower rates.
 Honestly it&rsquo;s probably not going to bother anyong at the
 80K &ndash; 120K rate, but I prefer to be safe when it comes to
-my music encoding.</p>
+my music encoding.</p></blockquote>
+
+<h2>One Size Does Not Fit All</h2>
 
 <p>Be sure to compress your audio files according to your
 podcast needs, weighing file size vs audio quality and
