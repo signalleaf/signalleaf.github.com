@@ -169,7 +169,7 @@ Given that, I'm going to revise my recommendation:
 **Use 128K or 96K Constant Bit Rate** unless you have a good
 reason not to. 
 
-#### My Original Recommendation
+#### On Variable Bit Rates
 
 Even after revising my recommendation, I'm going to leave
 this note here, as to what my original recommendation was. At
@@ -189,10 +189,27 @@ coming from originally vs now.
 > 80K - 120K rate, but I prefer to be safe when it comes to
 > my music encoding.
 
+And even at this, there are podcasters out there who have
+switched over to variable bit rates with no issues. 
+[John Galloway](https://twitter.com/jongalloway)
+for example, has been serving more than 9,000 listeners of
+his podcast in variable bit rate for over a year. 
+
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/SignalLeaf">@SignalLeaf</a> Thanks. I was using CBR until last year for that reason, but switched to VBR and didn&#39;t get one complaint. Roughly 9k listeners.</p>&mdash; Jon Galloway (@jongalloway) <a href="https://twitter.com/jongalloway/statuses/414159229755219968">December 20, 2013</a></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/SignalLeaf">@SignalLeaf</a> I think the turnover rate in MP3 players - esp with phones - is high enough that it&#39;s no longer an issue.</p>&mdash; Jon Galloway (@jongalloway) <a href="https://twitter.com/jongalloway/statuses/414159430633021440">December 20, 2013</a></blockquote>
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## One Size Does Not Fit All
 
-Be sure to compress your audio files according to your
-podcast needs, weighing file size vs audio quality and 
-available bandwidth.
+Clearly there is some dispute over the constant bit rate
+vs variable bit rate. I'm inclined to lean toward what
+Rob Walch from LibSyn is saying at this point. But I'm also
+a technologist that understands the curve of old technology
+falling off the market and being replaced by newer standards.
+In the end, you should compress your audio files according to 
+your podcast needs, weighing file size vs audio quality and 
+available bandwidth. Whether this means constant or variable
+bit rates is up to you.
 
 Happy podcasting, all you Signalers!
