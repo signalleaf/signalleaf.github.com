@@ -4,7 +4,7 @@
   <title><![CDATA[Category: mp3 | Signals And Leaves]]></title>
   <link href="http://blog.signalleaf.com/blog/categories/mp3/atom.xml" rel="self"/>
   <link href="http://blog.signalleaf.com/"/>
-  <updated>2013-12-20T16:12:37-06:00</updated>
+  <updated>2013-12-20T16:36:34-06:00</updated>
   <id>http://blog.signalleaf.com/</id>
   <author>
     <name><![CDATA[Derick Bailey]]></name>
@@ -199,7 +199,7 @@ following for the SoundManager 2, HTML5 player.</p>
 <p><strong>Use 128K or 96K Constant Bit Rate</strong> unless you have a good
 reason not to.</p>
 
-<h4>My Original Recommendation</h4>
+<h4>On Variable Bit Rates</h4>
 
 <p>Even after revising my recommendation, I&rsquo;m going to leave
 this note here, as to what my original recommendation was. At
@@ -219,11 +219,34 @@ Honestly it&rsquo;s probably not going to bother anyong at the
 80K &ndash; 120K rate, but I prefer to be safe when it comes to
 my music encoding.</p></blockquote>
 
+<p>And even at this, there are podcasters out there who have
+switched over to variable bit rates with no issues.
+<a href="https://twitter.com/jongalloway">John Galloway</a>
+for example, has been serving more than 9,000 listeners of
+his podcast in variable bit rate for over a year.</p>
+
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/SignalLeaf">@SignalLeaf</a> Thanks. I was using CBR until last year for that reason, but switched to VBR and didn&#39;t get one complaint. Roughly 9k listeners.</p>&mdash; Jon Galloway (@jongalloway) <a href="https://twitter.com/jongalloway/statuses/414159229755219968">December 20, 2013</a></blockquote>
+
+
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/SignalLeaf">@SignalLeaf</a> I think the turnover rate in MP3 players - esp with phones - is high enough that it&#39;s no longer an issue.</p>&mdash; Jon Galloway (@jongalloway) <a href="https://twitter.com/jongalloway/statuses/414159430633021440">December 20, 2013</a></blockquote>
+
+
+
+
+<script async src="http://blog.signalleaf.com//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 <h2>One Size Does Not Fit All</h2>
 
-<p>Be sure to compress your audio files according to your
-podcast needs, weighing file size vs audio quality and
-available bandwidth.</p>
+<p>Clearly there is some dispute over the constant bit rate
+vs variable bit rate. I&rsquo;m inclined to lean toward what
+Rob Walch from LibSyn is saying at this point. But I&rsquo;m also
+a technologist that understands the curve of old technology
+falling off the market and being replaced by newer standards.
+In the end, you should compress your audio files according to
+your podcast needs, weighing file size vs audio quality and
+available bandwidth. Whether this means constant or variable
+bit rates is up to you.</p>
 
 <p>Happy podcasting, all you Signalers!</p>
 ]]></content>
