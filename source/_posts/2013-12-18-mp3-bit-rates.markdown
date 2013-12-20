@@ -148,7 +148,7 @@ I had originally written this post to recommend 80K-120K
 Variable Bit rate, based on the audio quality and file size.
 But I need to revise that based on some conversation with
 [Ray Ortega](http://thepodcastersstudio.com/) and Rob Walch 
-(from LibSyn) over on [my Google+ post](https://plus.google.com/u/0/+DerickBailey/posts/AWQvwWf5c4n).
+(from [LibSyn](http://libsyn.com)) over on [my Google+ post](https://plus.google.com/u/0/+DerickBailey/posts/AWQvwWf5c4n).
 
 Rob points out several problems with audio players as recent
 as IOS6, and links to several posts where problems and solutions
@@ -164,8 +164,9 @@ following for the SoundManager 2, HTML5 player.
 >
 > Additionally, some very low and very high bitrate MP3s, and Variable Bitrate (VBR) MP3s may play either too quickly or too slowly (see "the chipmunk problem"); if you are encountering this issue, try re-encoding at a different bitrate (between 64 kbps and 192 kbps, for example.) Using Constant Bitrate (CBR) encoding may also alleviate this problem."
 
-Given that, I'm going to revise my recommendation and suggest
-**using 128K or 96K Constant Bit Rate** unless you have a good
+Given that, I'm going to revise my recommendation:
+
+**Use 128K or 96K Constant Bit Rate** unless you have a good
 reason not to. 
 
 #### My Original Recommendation
