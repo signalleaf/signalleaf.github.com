@@ -4,7 +4,7 @@
   <title><![CDATA[Signals And Leaves]]></title>
   <link href="http://blog.signalleaf.com/atom.xml" rel="self"/>
   <link href="http://blog.signalleaf.com/"/>
-  <updated>2013-12-17T22:38:28-06:00</updated>
+  <updated>2013-12-20T12:52:16-06:00</updated>
   <id>http://blog.signalleaf.com/</id>
   <author>
     <name><![CDATA[Derick Bailey]]></name>
@@ -56,92 +56,96 @@ length.</p>
 
 <p>After recording the episode, I exported it under 10
 separate bit rate settings, using <a href="http://audacity.sourceforge.net/">Aadacity</a>.
-The bit rates include:</p>
-
-<ul>
-<li>16K Constant Rate</li>
-<li>32K Constant Rate</li>
-<li>64K Constant Rate</li>
-<li>128K Constant Rate</li>
-<li>256K Constant Rate</li>
-</ul>
-
-
-<p>And:</p>
-
-<ul>
-<li>48K &ndash; 85K Variable Rate</li>
-<li>80K &ndash; 120K Variable Rate</li>
-<li>145K &ndash; 185K Variable Rate</li>
-<li>170K &ndash; 210K Variable Rate</li>
-<li>220K &ndash; 260K Variable Rate</li>
-</ul>
-
-
-<h2>The Episodes</h2>
-
-<p>With all of these bit rate exports, I create a special
+With all of these bit rate exports, I create a special
 podcast on SignalLeaf just for these episodes. You can
 <a href="http://www.signalleaf.com/podcasts/52b10a635b56000200000011/rss">subscribe to the podcast RSS feed</a>
 and listen to each of the episodes in iTunes and other
 podcast players, or you can use the embedded players here.</p>
 
-<h4>Constant Bit Rate Versions</h4>
+<h2>Constant Bit Rate Versions</h2>
+
+<p>These episodes were exported at a constant bit rate &ndash; a rate that stays the same
+throughout the entire encoding, regardless of the amount of data that there is to
+encode.</p>
+
+<h4>16K Constant</h4>
 
 <iframe src="http://www.signalleaf.com/embed/52b10a635b56000200000011/52b10ade4cacd40200000050/" width="500" height="70" frameborder="0"></iframe>
 
 
+<p>Episode exported at 16K Constant bit rate with 20K sampling (max supported by 16K file bit rate). The effect is quite horrible. Everything sounds muffled, warbly, and like its in a tin can with ear muffs. The file is quite small, at 3.9Megs, though.</p>
 
+<h4>32K Constant</h4>
 
 <iframe src="http://www.signalleaf.com/embed/52b10a635b56000200000011/52b10cf04cacd40200000051/" width="500" height="70" frameborder="0"></iframe>
 
 
+<p>Episode exported at 32K Constant bit rate with 44.1K sampling. The effect is still pretty bad. Everything sounds warbly and slightly muffled, though not as bad as the 16K file. The highs are especially off, and a lot of the stereo effect in the opening music is gone. The file is still pretty small, at 7.7Megs.</p>
 
+<h4>64K Constant</h4>
 
 <iframe src="http://www.signalleaf.com/embed/52b10a635b56000200000011/52b10d824cacd40200000053/" width="500" height="70" frameborder="0"></iframe>
 
 
+<p>Episode exported at 64K Constant bit rate with 44.1K sampling. The quality drop in this file is negligible. There are some points in the opening music where some slight warbles can be heard on the high end sounds. Additional guitar sounds and other instruments tend to have a more pronounced warbled sound at this bit rate. The file size is still quite reasonable and may be considered &ldquo;small&rdquo; by some standards, at 15.5Megs.</p>
 
+<h4>128K Constant</h4>
 
 <iframe src="http://www.signalleaf.com/embed/52b10a635b56000200000011/52b10e6e5b56000200000017/" width="500" height="70" frameborder="0"></iframe>
 
 
+<p>Episode exported at 128K Constant bit rate with 44.1K sampling. The net effect of this bit rate is no noticeable degradation in audio quality, throughout the podcast episode. If additional instrumentation were present, there would be little to no loss of audio quality. The quality comes at a trade off in file size, though, with the file being 31Megs in size. This size is hardly acceptable for a podcast that is only 32 minutes in length.</p>
 
+<h4>256K Constant</h4>
 
 <iframe src="http://www.signalleaf.com/embed/52b10a635b56000200000011/52b110185b56000200000018/" width="500" height="70" frameborder="0"></iframe>
 
 
+<p>Episode exported at 256K Constant bit rate with 44.1K sampling. At 62 megs, this file size is completely unacceptable for distributing a podcast of only 32 minutes in length. The sound quality, however, is near impeccable. There is little chance that anyone would be able to pick up any distortions in the quality of audio.</p>
 
+<h2>Variable Bit Rate Versions</h2>
 
-<p>&nbsp;</p>
+<p>Variable bit rate encoding allows the bit rate to change based on the amount of information
+that needs to be encoded. If there is less audio signal to encode, the bit rate goes down.
+If there is more, it goes up. This can reduce the file size while still maintaining quality,
+in many cases.</p>
 
-
-<h4>Variable Bit Rate Versions</h4>
+<h4>48K &ndash; 85K Variable</h4>
 
 <iframe src="http://www.signalleaf.com/embed/52b10a635b56000200000011/52b111a44cacd40200000059/" width="500" height="70" frameborder="0"></iframe>
 
 
+<p>Exported at 48K-85K Variable bit rate with 44.1K sampling. There is very little distortion in this file, even in the musical introduction. A direct comparison of the 64K Constant bit rate yields a slight increase in audio quality over that export. The file size, in comparison, dropped from 15.5Megs down to 13Megs. The audio quality vs file size at this bit rate is quite nice.</p>
 
+<h4>80K &ndash; 120K Variable</h4>
 
 <iframe src="http://www.signalleaf.com/embed/52b10a635b56000200000011/52b115e44cacd4020000005a/" width="500" height="70" frameborder="0"></iframe>
 
 
+<p>Exported at 80K-120K Variable bit rate with 44.1K sampling. There is little to no perceivable distortion in this audio even in the musical introduction. A larger assortment of musical instruments comprising a full band or orchestra may exhibit some minor issues, but not enough to cause serious displeasure. A direct comparison of the 128K Constant bit rate yields approximately the same audio quality, though it is technically slightly less. The file size, in comparison, dropped from 31Megs down to 18.4Megs for a mostly spoken audio file. The audio quality vs file size at this bit rate is quite nice.</p>
 
+<h4>145K &ndash; 185K Variable</h4>
 
 <iframe src="http://www.signalleaf.com/embed/52b10a635b56000200000011/52b117d94cacd4020000005c/" width="500" height="70" frameborder="0"></iframe>
 
 
+<p>Exported at 145K-185K Variable bit rate with 44.1K sampling. There is little to no perceivable distortion in this audio even in the musical introduction. A larger assortment of musical instruments comprising a full band or orchestra may exhibit some minor issues, but not enough to cause serious displeasure. A direct comparison of the 128K Constant bit rate yields a technically higher quality audio file, but with little perceivable difference (if any). The file size, in comparison, dropped from 31Megs down to 26Megs for a mostly spoken audio file. The audio quality vs file size at this bit rate is acceptable for music based podcasts, but may be slightly larger than desired for spoken podcasts.</p>
 
+<h4>170K &ndash; 210K Variable</h4>
 
 <iframe src="http://www.signalleaf.com/embed/52b10a635b56000200000011/52b119354cacd4020000005e/" width="500" height="70" frameborder="0"></iframe>
 
 
+<p>Exported at 170K-210K Variable bit rate with 44.1K sampling. There is little to no perceivable distortion in this audio even in the musical introduction. A larger assortment of musical instruments comprising a full band or orchestra should not exhibit any noticeable distortion, except in extreme cases. A direct comparison of the 128K Constant bit rate yields a higher quality that is imperceptibly improved with a spoken podcast. A full orchestra or other large arrangement of instruments may show some perceived improvements. The file size, in comparison, dropped from 31Megs down to 30.4Megs for a mostly spoken audio file &ndash; a negligible difference, at best. The audio quality vs file size at this bit rate may be acceptable for music based podcasts, but is too large for spoken podcasts.</p>
 
+<h4>220K &ndash; 260K Variable</h4>
 
 <iframe src="http://www.signalleaf.com/embed/52b10a635b56000200000011/52b11a315b56000200000022/" width="500" height="70" frameborder="0"></iframe>
 
 
-<h2>The (Surprising) Results</h2>
+<p>Exported at 220K-260K Variable bit rate with 44.1K sampling. Good luck finding any perceivable audio quality problems with this one. A direct comparison of the 256K Constant bit rate yields approximately the same audio quality, though it is technically slightly less. The file size, in comparison, dropped from 62Megs down to 39.2Megs for a mostly spoken audio file &ndash; a significant reduction. The audio quality vs file size at this bit rate is not acceptable for streaming. The file is simply too large for the amount of content contained within it.</p>
+
+<h2>The (Somewhat Surprising) Results</h2>
 
 <p>As you would expect, the low-end results of the 16K bit rate
 are attrocious. If it wasn&rsquo;t for the ridiculously small
@@ -150,14 +154,18 @@ going to call it not an option anyways, in spite of the file
 size. The audio quality is simply horrible. I wouldn&rsquo;t inflict
 that on anyone.</p>
 
-<p>I had always thought that a variable bit rate .mp3 file was going
-to be smaller, but I had no idea just how much smaller they
-would be &ndash; especially when comparing the file audio quality
-near their counterpart in the constant rates.</p>
+<p>I&rsquo;ve always known that a variable bit rate .mp3 file was going
+to be smaller, but I had never directly compared the file size
+and audio quality with a constant/variable counterpart before.
+The ability to keep roughly the same file size while increasing
+the over-all quality was a nice effect when comparing 64K Constant
+to 80-120K Variable, for example. The Variable is slightly
+larger, but with the increase of quality and negligible file size
+gain, this was a huge win for variable bit rates!</p>
 
 <p>The other surprising result is how little difference there is,
 if there is any perceivable difference, between 128K and
-anything above it. At least with spoken podcasts, I don&rsquo;t see
+anything above it. At least with spoken podcasts I don&rsquo;t see
 any need to ever use anything above 128K Constant rate, or
 the near equivalent quality of 80K-120K Variable rate.</p>
 
