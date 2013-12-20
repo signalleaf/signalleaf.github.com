@@ -1,30 +1,36 @@
 ---
 layout: post
-title: "Announcing The Prepare, Produce, Publish E-Book!"
+title: "Prepare, Produce, Publish: Stop Waiting And Start Podcasting!"
 date: 2013-12-17 13:15
 comments: true
 categories: [ebook, podcasting, getting started]
 ---
 
-So you want to start a podcast, but don't know where to start? 
-No problem! With nothing more than a laptop and an internet 
-connection, you can join the new media revolution and publish 
+You want to start a podcast. You've got something to say,
+and you know that people want to hear it. So what are you
+waiting for? **Stop wasting your time, waiting for the right mic or the
+right co-host!** 
+
+With nothing more than a laptop and an 
+internet connection, you can join the new media revolution and publish 
 your voice, your thoughts and your opinions to the world!
 
 <a href="/how-to-podcast" target="_blank" class="center"><img src="/images/prepare-produce-publish-cover.png"></a>
 
 <!-- more -->
 
-## Publish Your First Podcast
+## Publish Your First Podcast, TODAY
 
-Today, I'm happy to announce the availability of my e-book,
-"<a href="/how-to-podcast">Prepare, Produce, Publish: Your First Podcast In 3 Easy Steps!</a>"
+Today. I mean, today! With my e-book,
+"<a href="https://leanpub.com/prepare-produce-publish/packages/book/purchases/new">Prepare, Produce, Publish: Your First Podcast In 3 Easy Steps!</a>",
+you will be up and running and have your first episode
+published in no time at all!
 
 This book is all about getting you started in the world of
-podcasting. From the equipment that you need (*and don't need!*)
+podcasting - from the equipment that you need (*and don't need!*)
 to using Audacity for recording your first episode, and how
 to publish your podcast through a hosting service, this book
-covers it all for for the new podcaster!
+covers it all for for the new podcaster.
 
 ## Early Bird Pricing And Updates
 
@@ -44,5 +50,5 @@ and tricks to publish your podcast as I write them!
 ## Get Your Podcast Published
 
 I know you've been thinking about starting a podcast, so 
-<a href="/how-to-podcast">get the book and get your podcast
+<a href="https://leanpub.com/prepare-produce-publish/packages/book/purchases/new">get the book and get your podcast
 published in record time!</a>

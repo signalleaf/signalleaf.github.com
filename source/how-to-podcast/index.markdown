@@ -1,20 +1,27 @@
 ---
 layout: page
-title: "How To Podcast"
+title: "How To Get Started In Podcasting"
 date: 2013-12-17 12:27
 comments: true
 sharing: true
 footer: true
 ---
 
-So you want to start a podcast, but don't know where to start? 
-No problem! With nothing more than a laptop and an internet 
-connection, you can join the new media revolution and publish 
-your voice, your thoughts and your opinions to the world!
+You want to start a podcast. You've got something to say,
+and you know that people want to hear it. So what are you
+waiting for? **Stop wasting your time, waiting for the right mic or the
+right co-host.** 
 
-<a href="https://leanpub.com/prepare-produce-publish" target="_blank" class="center"><img src="/images/prepare-produce-publish-cover.png"></a>
+## Stop Making Excuses! Start Podcasting, Today!
 
-## Join The New Media Revolution
+With nothing more than a laptop and an 
+internet connection, you can join the new media revolution and 
+**publish your voice, your thoughts and your opinions** 
+to the world!
+
+<a href="https://leanpub.com/prepare-produce-publish/packages/book/purchases/new" target="_blank" class="center"><img src="/images/prepare-produce-publish-cover.png"></a>
+
+## Join The New Media Revolution, Today!
 
 Podcasting is one of the fastest growing media forms today, and 
 for good reason. We, as humans, need to have a sense of 
@@ -48,4 +55,4 @@ climb than you think! Find out just how easy it is to get your
 podcast recorded, uploaded and embedded in your website and RSS 
 feed, today!
 
-<a href="https://leanpub.com/prepare-produce-publish" class="buy-now-button" target="_blank">Buy The Book! Get Your Podcast Published!</a>
+<a href="https://leanpub.com/prepare-produce-publish/packages/book/purchases/new" class="buy-now-button" target="_blank">Buy The Book! Get Your Podcast Published!</a>
