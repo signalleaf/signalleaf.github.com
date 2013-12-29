@@ -6,7 +6,6 @@ comments: true
 categories: [podcasting, getting started, tips, equipment]
 ---
 
-
 There's not shortage of people and websites claiming that they
 have "the right equipment" for you to get started with your
 podcast. Even [this blog](/equipment)
@@ -24,16 +23,28 @@ content of your podcast at this point.
 
 ## The "Right Equipment" Is The Wrong Idea
 
-A casual search on twitter reveals a number of people 
-asking about what equipment they should get.
+When you were learning to ride a bicycle, did your parents buy
+you a $10,000 racing bike and enter you in the Tour de France?
+When you were teaching your child to walk, did you buy them a
+$300 pair of running shoes and ask them to run the Boston
+Marathon? Of course not! The idea of that is ridiculous! Why,
+then, do we expect people to buy new equipment and "do it
+right" when they are starting out with podcasting?
+
+Wait... you don't believe that this is happening? A casual search 
+on twitter reveals a number of people frustrated or waiting
+because they don't have the right equipment, or asking about what 
+equipment they should get before they start.
+
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/SignalLeaf">@SignalLeaf</a> I have been researching this for weeks now and everything I have read has said the complete opposite to not start cheap. Lol</p>&mdash; Michael Wright (@MrWrightNow78) <a href="https://twitter.com/MrWrightNow78/statuses/417126714884780032">December 29, 2013</a></blockquote>
+
+These tweets often look like this:
 
 > I want to start a podcast, but I don't have the right equipment
 
 Or
 
 > What equipment do I need to start a podcast?
-
-<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/SignalLeaf">@SignalLeaf</a> I have been researching this for weeks now and everything I have read has said the complete opposite to not start cheap. Lol</p>&mdash; Michael Wright (@MrWrightNow78) <a href="https://twitter.com/MrWrightNow78/statuses/417126714884780032">December 29, 2013</a></blockquote>
 
 These are questions on which people often get stuck. They assume
 that you need a setup that looks like this:
