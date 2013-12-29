@@ -19,7 +19,11 @@ internet connection, you can join the new media revolution and
 **publish your voice, your thoughts and your opinions** 
 to the world!
 
-<a href="https://leanpub.com/prepare-produce-publish/packages/book/purchases/new" target="_blank" class="center"><img src="/images/prepare-produce-publish-cover.png"></a>
+<a href="http://www.signalleaf.com/help/mailing-list" target="_blank" class="center"><img src="/images/prepare-produce-publish-cover.png"></a>
+
+**[Join the mailing list now, and get your $10 E-Book, FREE!](http://www.signalleaf.com/help/mailing-list).**
+
+Don't want to get the latest updates and news on podcasting? No problem - [you can buy it for $10](https://leanpub.com/prepare-produce-publish).
 
 ## Join The New Media Revolution, Today!
 
@@ -55,4 +59,16 @@ climb than you think! Find out just how easy it is to get your
 podcast recorded, uploaded and embedded in your website and RSS 
 feed, today!
 
-<a href="https://leanpub.com/prepare-produce-publish/packages/book/purchases/new" class="buy-now-button" target="_blank">Buy The Book! Get Your Podcast Published!</a>
+## GET IT FREE! WITH FREE UPDATES!
+
+This e-book, which would cost $10 if you decide to buy it,
+can be yours for free by [signing up for the SignalLeaf mailing list](http://www.signalleaf.com/help/mailing-list)!
+
+In addition to this informational and step-by-step guide
+to publishing your first podcast, you'll get updates and
+news from the podcasting world. From blog posts, to tips
+and tricks, from podcasters and professionals to those that
+are just starting out, you'll hear all the latest news
+[right here](http://www.signalleaf.com/help/mailing-list).
+
+<a href="http://www.signalleaf.com/help/mailing-list" class="buy-now-button" target="_blank">Sign Up Now And Get The Guide!</a>

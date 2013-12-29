@@ -32,7 +32,19 @@ to using Audacity for recording your first episode, and how
 to publish your podcast through a hosting service, this book
 covers it all for for the new podcaster.
 
-## Early Bird Pricing And Updates
+## GET IT FREE! WITH FREE UPDATES!
+
+This e-book, which would cost $10 if you decide to buy it,
+can be yours for free by [signing up for the SignalLeaf mailing list](http://www.signalleaf.com/help/mailing-list)!
+
+In addition to this informational and step-by-step guide
+to publishing your first podcast, you'll get updates and
+news from the podcasting world. From blog posts, to tips
+and tricks, from podcasters and professionals to those that
+are just starting out, you'll hear all the latest news
+[right here](http://www.signalleaf.com/help/mailing-list).
+
+## A Work In Progress
 
 This ebook is currently a work in progress. That means it is 
 not yet complete, but it still provides a ton of value as-is. 
@@ -50,5 +62,6 @@ and tricks to publish your podcast as I write them!
 ## Get Your Podcast Published
 
 I know you've been thinking about starting a podcast, so 
-<a href="https://leanpub.com/prepare-produce-publish/packages/book/purchases/new">get the book and get your podcast
-published in record time!</a>
+[join the SignalLeaf mailing list](http://www.signalleaf.com/help/mailing-list) 
+and get the guide to publishing
+your podcast, FREE!
