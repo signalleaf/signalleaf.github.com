@@ -59,38 +59,36 @@ But I'm going to let you in on a little secret... **your podcast
 Let me make this very clear: **if you have a computer with a mic and an internet connection, you
 already have the right equipment.**
 
-## No More Excuses
+## A Reward With No Effort
 
-The truth is, **a lot of people use the idea of not having "the
-right equipment" as an excuse** - even if they don't realize it. 
-It's easy to hide behind the
-idea that you need to spend a lot of money on equipment. It's
-easy to say that you'll get started once you save up enough to
-get the right microphone. It's easy to put this off, because
-it takes no effort. It takes no work. There is no committment
-involved in not doing anything. Talk is cheap, and talking
-about how you want to do this, but can't because you don't
-the right equipment, is the cheapest of the cheap.
+[John Sonmez](http://getupandcode.com) summed up the problem quite nicely: 
 
-**The first podcast experience that you have is more about you
-than anything else**. It's about you getting comforable with the
-idea of recording, of producing something, and putting your
-thoughts out there for the world to hear. It's not about the
-equipment that you do or don't have. 
+> Most people have it backwards.
+> They buy a treadmill thinking they will run because they spent $1k.
+> Or they buy new running shoes or a guitar.
+> 
+> The ones who actually succeed, run in old sneaker and tell themselves that when they have been running for 3 months they can buy real running shoes.
+> The ones who don't give up early are the ones who borrow a friend's piece of crap guitar and promise themselves that once they learn 10 songs they'll buy their own guitar.
+> 
+> When you already have the reward, you lack the motivation and you don't appreciate the instrument.
+> How do you appreciate $5,000 golf clubs if you never played with $50 golf clubs?
 
-It's like [Jenny Brewster](http://jennybrewster.com/podcasting-equipment/)
-said: 
+The same is true of any reward, or any nice equipment for any purpose. Buying
+the right equipment now is not a guarantee that you are going to produce a 
+great podcast. Wait until you have gone through the first experimental stages
+and you know that you want to continue, having proven that you can produce
+content. 
 
-> Record in the Cupboard if that’s where you’re happy
+**Once you have shown that you can produce content and get it delivered,
+reward the effort with better equipment.** But don't rely on the equipment to
+make your job easy. It takes effort, no matter what equipment you are using.
+The reason others make it look effortless, is not because of the equipment
+they have. It is because they have struggled through
+the learning curve and have mastered the tools and processes; they have earned
+the equipment, the effortless production, and the audience.
 
-Sure, if you happen to have
-some equipment already, it might make your first episode sound
-better. But it's not about the quality, when you're starting
-out. **Starting is all about getting up and running quickly.**
-
-Yes, there is at a bare minimum amount of
-equipment that you do need. The good news is that you 
-have everything you need, already.
+**So get started now, with what you have.** Earn the rewards of better equipment,
+and build your audience and skillset through your efforts.
 
 ## A Computer, A Mic, And Internet Connection
 
@@ -124,6 +122,39 @@ are uploading your episode**. You won't need a connection to
 record a podcast, if you are only recording yourself or if
 you have all of your guests in the same room as you.
 
+## No More Excuses
+
+The truth is, **a lot of people use the idea of not having "the
+right equipment" as an excuse** - even if they don't realize it. 
+It's easy to hide behind the
+idea that you need to spend a lot of money on equipment. It's
+easy to say that you'll get started once you save up enough to
+get the right microphone. It's easy to put this off, because
+it takes no effort. It takes no work. There is no committment
+involved in not doing anything. Talk is cheap, and talking
+about how you want to do this, but can't because you don't
+the right equipment, is the cheapest of the cheap.
+
+**The first podcast experience that you have is more about you
+than anything else**. It's about you getting comforable with the
+idea of recording, of producing something, and putting your
+thoughts out there for the world to hear. It's not about the
+equipment that you do or don't have. 
+
+It's like [Jenny Brewster](http://jennybrewster.com/podcasting-equipment/)
+said: 
+
+> Record in the Cupboard if that’s where you’re happy
+
+Sure, if you happen to have
+some equipment already, it might make your first episode sound
+better. But it's not about the quality, when you're starting
+out. **Starting is all about getting up and running quickly.**
+
+Yes, there is at a bare minimum amount of
+equipment that you do need. The good news is that you 
+have everything you need, already.
+
 ## Published And Flawed Is Better Than Not Published
 
 This really is the point of what I'm trying to say: it's far
@@ -141,37 +172,6 @@ enjoy the process much more.
 
 *Don't wait for the right equipment. Use the equipment that you
 have right now, and get started!*
-
-## A Reward With No Effort
-
-[John Sonmez](http://getupandcode.com) summed up the problem quite nicely: 
-
-> Most people have it backwards.
-> They buy a treadmill thinking they will run because they spent $1k.
-> Or they buy new running shoes or a guitar.
-> 
-> The ones who actually succeed, run in old sneaker and tell themselves that when they have been running for 3 months they can buy real running shoes.
-> The ones who don't give up early are the ones who borrow a friend's piece of crap guitar and promise themselves that once they learn 10 songs they'll buy their own guitar.
-> 
-> When you already have the reward, you lack the motivation and you don't appreciate the instrument.
-> How do you appreciate $5,000 golf clubs if you never played with $50 golf clubs?
-
-The same is true of any reward, or any nice equipment for any purpose. Buying
-the right equipment now is not a guarantee that you are going to produce a 
-great podcast. Wait until you have gone through the first experimental stages
-and you know that you want to continue, having proven that you can produce
-content. 
-
-**Once you have shown that you can produce content and get it delivered,
-reward the effort with better equipment.** But don't rely on the equipment to
-make your job easy. It takes effort, no matter what equipment you are using.
-The reason others make it look effortless, is not because of the equipment
-they have. It is because they have struggled through
-the learning curve and have mastered the tools and processes; they have earned
-the equipment, the effortless production, and the audience.
-
-**So get started now, with what you have.** Earn the rewards of better equipment,
-and build your audience and skillset through your efforts.
 
 ### Want To Know More About Getting Started?
 
