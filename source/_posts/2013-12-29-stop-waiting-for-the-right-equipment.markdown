@@ -6,6 +6,7 @@ comments: true
 categories: [podcasting, getting started, tips, equipment]
 ---
 
+
 There's not shortage of people and websites claiming that they
 have "the right equipment" for you to get started with your
 podcast. Even [this blog](/equipment)
