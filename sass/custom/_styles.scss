@@ -111,3 +111,17 @@ a.buy-now-button {
   text-align: center;
   margin: 0px auto;
 }
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clearfix {
+  display: block;
+  float: none;
+  clear: both;
+}

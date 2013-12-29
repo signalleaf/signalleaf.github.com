@@ -130,4 +130,15 @@ enjoy the process much more.
 *Don't wait for the right equipment. Use the equipment that you
 have right now, and get started!*
 
+### Want To Know More About Getting Started?
+
+This blog post is the first chapter from my e-book, 
+[Prepare, Produce, Publish: Your first podcast, in 3 easy steps!](/how-to-podcast).
+If you'd like to know more about getting started, **how to record your
+first episode, where to publish the files and how to get your
+podcast online quickly**, get the e-book! **It's FREE** when you
+sign up to receive all the latest podcasting news and tips! **Just drop
+your email address in to the form below and you'll receive the e-book
+at no charge**.
+
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
