@@ -38,13 +38,26 @@ level low, so you don't get distortion. Keeping the input level low
 means the mic will pick up less noise from the room. Even if you're in
 a room full of echo, you can reduce this by eating the mic.
 
+#### On Not Eating The Mic
+
+In a previous post / podcast episode, I talked about keeping the mic
+around 4 inches away from my mouth. This is what I tend to do, as it's
+what I learned in my audio engineering courses in college. I've seen
+more and more people getting the mic right up to their mouth, over the
+years, though. 
+
+Bringing your mouth up to the mic like this can have some drawbacks, such
+as excessive mouth noises. I tend to have a problem with this, personally,
+ but not everyone does. Do some tests. Practice a bit. See if this type
+of positioning works for you. 
+
 ## Chew With Your Molars
 
-There's an important aspect in how they are stuffing the mic in to their
-mouths, though. They are doing it from the side.
-Notice how they rarely (if ever) put the mic directly in front of their
-mouth. They are almost always putting the mic off to the side of their
-mouth, with the mic diaphragm pointing in to their mouth.
+There's an important aspect of mic position, when keeping the mic close
+to your face. These hosts are not putting mic directly in front of their mouth.
+Rather, they are almost always putting 
+the mic off to the side of their mouth, with the mic diaphragm pointing in to 
+their mouth.
 
 ![](/images/blog_posts/mike-and-mike-3.jpg)
 
