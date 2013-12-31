@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Learn About Mics From Mike And Mike"
+title: "What Mike And Mike Can Teach You About Mics"
 date: 2013-12-31 10:08
 comments: true
 categories: [mic, positioning, compression, audio, quality]
