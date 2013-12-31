@@ -16,6 +16,7 @@ help you learn better mic position for yourself, among other things.
 
 ![](/images/blog_posts/mike-and-mike.jpg)
 
+
 <!-- more -->
 
 ## Eat The Mic
