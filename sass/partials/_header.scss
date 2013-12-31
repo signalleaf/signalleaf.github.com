@@ -1,5 +1,7 @@
 body > header {
   background: $header-bg;
+  margin-top: 1em;
+  @include border-top-radius(.4em);
   h1 {
     font-weight: bold;
     font-size: $header-title-size;
