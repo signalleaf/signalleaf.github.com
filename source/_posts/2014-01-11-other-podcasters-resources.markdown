@@ -15,6 +15,8 @@ blog posts and page for equipment ideas, how-to info, and more. And I wanted
 to share some of these so that you could also benefit from the knowledge
 and experience that I've been able to benefit from.
 
+<!-- more -->
+
 ## Scott Hanselman
 
 [Scott Hanselman](http://hanselman.com) is a well known software developer and technologist, and is
