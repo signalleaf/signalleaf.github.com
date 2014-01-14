@@ -4,7 +4,7 @@
   <title><![CDATA[Category: getting started | Signals And Leaves]]></title>
   <link href="http://blog.signalleaf.com/blog/categories/getting-started/atom.xml" rel="self"/>
   <link href="http://blog.signalleaf.com/"/>
-  <updated>2014-01-11T12:36:31-06:00</updated>
+  <updated>2014-01-14T08:27:49-06:00</updated>
   <id>http://blog.signalleaf.com/</id>
   <author>
     <name><![CDATA[Derick Bailey]]></name>
@@ -12,6 +12,124 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Episode 4 With Craig McKeachie]]></title>
+    <link href="http://blog.signalleaf.com/blog/2014/01/14/episode-4-with-craig-mckeachie/"/>
+    <updated>2014-01-14T07:53:00-06:00</updated>
+    <id>http://blog.signalleaf.com/blog/2014/01/14/episode-4-with-craig-mckeachie</id>
+    <content type="html"><![CDATA[<p><strong>Episode 4 of the Signals &amp; Leaves, with <a href="http://www.funnyant.com/">Craig McKeachie</a>.</strong></p>
+
+<p>Craig is starting up a new podcast on front-end web development
+and is going through all the usual steps of getting started,
+getting episodes recorded and getting them published.</p>
+
+<p>This episode was recorded live at <a href="http://codemash.org">CodeMash 2014</a>
+in a room that was full of noise from ventilation and other
+environmental things. I used <a href="http://audacity.sourceforge.net/">Audacity</a>
+to clean up the noise, which worked surprisingly well. There is
+some noise leftover during louder portions of the audio, though.</p>
+
+<!-- more -->
+
+
+
+
+<iframe src="http://media.signalleaf.com/player/Signals-And-Leaves/52d548eba8606a0200000004/" width="500" height="70" frameborder="0"></iframe>
+
+
+<p>&nbsp;</p>
+
+<h3>Podcast Pro-tip</h3>
+
+<p><strong>Don&rsquo;t forget your guests' name or credentials.</strong></p>
+
+<p>This one is rather embarassing, I must say. Right as I was
+starting the episode with Craig, I forgot his name. My brain
+went completely blank. We laught it off at the beginning of
+the episode, but it makes for a bad start to the episode.</p>
+
+<h3>Equipment</h3>
+
+<p>This episode was recorded entirely with a <a href="http://www.amazon.com/gp/product/B003IJ3WIW/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B003IJ3WIW&amp;linkCode=as2&amp;tag=signalleaf-20">Roland R05</a>.</p>
+
+<iframe src="http://rcm-na.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=signalleaf-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=B003IJ3WIW" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+
+
+<h3>Notes</h3>
+
+<p>Podcasting is a great way to build an audience. It creates a
+more intimate connection with listeners, vs written words.</p>
+
+<p>Having multiple forms of media, such as book, blog, podcast,
+etc, helps you build authority.</p>
+
+<p>Podcasts introduce conversation instead of monologue. It&rsquo;s
+easier to generate ideas, create something more valuable and
+get more out of a conversation than a monologue, at times.</p>
+
+<p>Choosing a name is hard &ndash; don&rsquo;t want to be too narrow, but
+also want to identify and serve your audience, and deliver
+value.</p>
+
+<p>Getting feedback from trusted resources can give you confidence.
+Even if you figure things out, find resources that teach you
+and verify what you&rsquo;ve learned.</p>
+
+<p>Podcast hosting eats up a lot of bandwidth. Be sure you have
+a host that can handle the bandwidth. Find <a href="http://signalleaf.com">a podcast host</a>
+when possible.</p>
+
+<p>Average life of a podcast episode is 6 weeks. Bandwidth is
+typically measured per month, but bandwidth for an episode can
+be estimated from the 6 week download trend for past episodes.</p>
+
+<p>Be careful of Feedburner and other free services. Feedburner
+limits you to 512K feed size, and will drop episodes to keep
+it small. FeedBlitz and other paid services won&rsquo;t introduce
+this type of limit.</p>
+
+<p>Your podcast needs RSS that is compatible with as many devices
+and directories as possible. If your podcast hosting doesn&rsquo;t
+ensure this, you will want to use a third party feed distribution
+system like FeedBlitz.</p>
+
+<p>Find a podcast / RSS host that provides the analytics you
+need. <a href="http://signalleaf.com">SignalLeaf</a> gives you a breakdown of
+RSS vs embeded player vs downloads, for traffic reports.</p>
+
+<p>Trade iTunes directory reviews with other podcasters. Find podcasts
+that you&rsquo;re interested in. Listen to a few episodes, then contact
+the author and ask them to review your podcast in exchange for
+you reviewing them.</p>
+
+<p>You need a blog for your podcast, whether it&rsquo;s part of your
+primary website or a separate blog. Write a post for each
+episode with a short list of notes from the episode, at least.</p>
+
+<h2>Links</h2>
+
+<p><a href="http://funnyant.com">Craig McKeachie / FunnyAnt</a></p>
+
+<p><a href="http://podcastanswerman.com">Cliff Ravenscraft / Podcast Answerman</a></p>
+
+<p><a href="http://www.softwarebyrob.com/">Rob Wahling</a></p>
+
+<p><a href="http://www.smartpassiveincome.com/">Pat Flynn / Smart Passive Income</a></p>
+
+<p><a href="http://mixergy.com">Mixergy</a></p>
+
+<p><a href="http://www.entrepreneuronfire.com/">Entrepreneur On Fire</a></p>
+
+<p><a href="http://jsjabber.com">JavaScript Jabber</a></p>
+
+<p><a href="http://feedblitz.com">FeedBlitz</a></p>
+
+<p><a href="http://getupandcode.com">GetUpAndCode.com</a></p>
+
+<p><a href="http://simpleprogrammer.com">SimpleProgrammer.com</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Stop Waiting For The Right Equipment. Start Podcasting Now!]]></title>

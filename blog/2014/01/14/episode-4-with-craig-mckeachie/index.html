@@ -5,13 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Why Free Hosting Isn't "Free" - Signals And Leaves</title>
+  <title>Episode 4 With Craig McKeachie - Signals And Leaves</title>
   <meta name="author" content="Derick Bailey">
 
   
-  <meta name="description" content="I found a question on the StackExchange network
-regarding podcast hosting and the use of a CDN, with one answer
-suggesting the use of SoundCloud for &hellip;">
+  <meta name="description" content="Episode 4 of the Signals &amp; Leaves, with Craig McKeachie. Craig is starting up a new podcast on front-end web development
+and is going through all &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +19,7 @@ suggesting the use of SoundCloud for &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://blog.signalleaf.com/blog/2013/12/04/why-free-hosting-isnt-always-free">
+  <link rel="canonical" href="http://blog.signalleaf.com/blog/2014/01/14/episode-4-with-craig-mckeachie">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Signals And Leaves" type="application/atom+xml">
@@ -145,7 +144,7 @@ suggesting the use of SoundCloud for &hellip;">
   
   <header>
     
-      <h1 class="entry-title">Why Free Hosting Isn't "Free"</h1>
+      <h1 class="entry-title">Episode 4 With Craig McKeachie</h1>
     
     
       <p class="meta">
@@ -161,7 +160,7 @@ suggesting the use of SoundCloud for &hellip;">
   
 
 
-<time datetime="2013-12-04T21:31:00-06:00" pubdate data-updated="true">Dec 4<span>th</span>, 2013</time>
+<time datetime="2014-01-14T07:53:00-06:00" pubdate data-updated="true">Jan 14<span>th</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://blog.signalleaf.com">Comments</a>
@@ -171,178 +170,116 @@ suggesting the use of SoundCloud for &hellip;">
   </header>
 
 
-<div class="entry-content"><p>I found <a href="http://webmasters.stackexchange.com/questions/52046/podcast-site-serve-audio-files-with-cdn/55791">a question on the StackExchange network</a>
-regarding podcast hosting and the use of a CDN, with one answer
-suggesting the use of SoundCloud for hosting.</p>
+<div class="entry-content"><p><strong>Episode 4 of the Signals &amp; Leaves, with <a href="http://www.funnyant.com/">Craig McKeachie</a>.</strong></p>
 
-<blockquote><p>I am managing a small podcast website hosted on a shared server. Currently there are only eight or nine episodes, each of which are about 50 MB, so bandwidth is not really an issue at the moment.</p>
+<p>Craig is starting up a new podcast on front-end web development
+and is going through all the usual steps of getting started,
+getting episodes recorded and getting them published.</p>
 
-<p>However, looking forward, would it be feasible to use a &ldquo;free&rdquo; CDN like Cloudflare to serve the audio files? If so, how would I set this up?</p>
-
-<p>I took a quick look at it before, and it seems you have to have your whole site routed (is that the right term?) through the CDN rather than just specific files or filetypes. I&rsquo;d like some clarification on this.</p></blockquote>
-
-<p>It&rsquo;s an interesting question and idea, but one that
-comes with a lot of potential problems.</p>
+<p>This episode was recorded live at <a href="http://codemash.org">CodeMash 2014</a>
+in a room that was full of noise from ventilation and other
+environmental things. I used <a href="http://audacity.sourceforge.net/">Audacity</a>
+to clean up the noise, which worked surprisingly well. There is
+some noise leftover during louder portions of the audio, though.</p>
 
 <!-- more -->
 
 
-<p>If you&rsquo;re not familiar with the idea behind a CDN, don&rsquo;t
-worry about that. It&rsquo;s not something that most people need to
-know about. If you&rsquo;re interested, though, check out
-<a href="http://www.kendoui.com/blogs/teamblog/posts/13-11-07/know-when-to-cdn.aspx">my article on using CDNs in web development</a> (external link).</p>
 
-<h2>Reduce Your File Size</h2>
 
-<p>Before I address the hosting concerns, you should really try
-to reduce your file size for the podcasts. Unless your podcast
-episodes are 2 to 4 hours long, each, you shouldn&rsquo;t be
-reaching 50 megs per file. Try reducing the audio quality in
-your mp3 files (and use .mp3 file compression if you&rsquo;re not
-already &ndash; it&rsquo;s the podcast industry standard). If you have a
-45 minute podcast, you should be able to get your .mp3 file
-down to around 15 to 20 megs, tops, without any significant
-reduction in sound quality for spoken voice podcasts. Music
-podcasts may be different, and you probably want higher
-quality, but those are the exception where voice based
-podcasts tend to be the rule.</p>
+<iframe src="http://media.signalleaf.com/player/Signals-And-Leaves/52d548eba8606a0200000004/" width="500" height="70" frameborder="0"></iframe>
 
-<h2>Free Hosting Is Almost Never &ldquo;Free&rdquo;</h2>
 
-<p>When it comes to bandwidth and hosting, you really want to
-avoid free if possible.</p>
+<p>&nbsp;</p>
 
-<p>On the bandwidth side, free tends to be awful. CDNs are not
-meant to be used for very large files that are downloaded
-frequently, like podcast files. CDNs are typically meant for
-smaller files, like static HTML, JavaScript, CSS and images.
-You&rsquo;ll quickly realize just how &ldquo;free&rdquo; a free CDN is when
-your downloads get throttled down to slow speeds or your
-account gets shut off because you&rsquo;re using too much bandwidth.</p>
+<h3>Podcast Pro-tip</h3>
 
-<p>In addition to bandwidth and even file size limitations on
-free accounts, you will likely end up with ads placed on your
-content, when using free hosting services for things like
-podcasts. Maybe you don&rsquo;t mind ads being placed on your
-podcast, to get free hosting. But there are some real dangers
-in this <a href="http://schoolofpodcasting.com/how-to-avoid-vibrator-commercials-on-your-podcast-say-no-to-free-media-hosting/">when your podcasts suddenly have ads for sex toys in them</a>!</p>
+<p><strong>Don&rsquo;t forget your guests&#8217; name or credentials.</strong></p>
 
-<p>(Note: that link is mostly safe for work. It&rsquo;s an article
-about the dangers of free hosting, including a story that
-is rather shocking, but has no unsafe images in it).</p>
+<p>This one is rather embarassing, I must say. Right as I was
+starting the episode with Craig, I forgot his name. My brain
+went completely blank. We laught it off at the beginning of
+the episode, but it makes for a bad start to the episode.</p>
 
-<p>Finally, there is always a risk that your free account will
-be taken out from under you, for no reason. Service providers
-are not obligated to continue providing free service to
-anyone, in the vast majority of cases. They may decide that
-they can no longer afford it, and yank the rug out from
-everyone that is hosted for free, or simply close up shop and
-disappear. It happens more than people want to admit.</p>
+<h3>Equipment</h3>
 
-<h2>SoundCloud Has Limits On Free</h2>
+<p>This episode was recorded entirely with a <a href="http://www.amazon.com/gp/product/B003IJ3WIW/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B003IJ3WIW&amp;linkCode=as2&amp;tag=signalleaf-20">Roland R05</a>.</p>
 
-<p>One of the comments on the question suggested using SoundCloud
-as a podcast host. This is a common thing to do, actually.
-SoundCloud offers a unique spin on hosting audio and even
-provides RSS and stats for podcasts. The reponder even note
-that StackExchanged used SoundCloud (which may or may not
-be accurate anymore&hellip; that should be verified).</p>
+<iframe src="http://rcm-na.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=signalleaf-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=B003IJ3WIW" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
 
-<p>StackExchange may use SoundCloud for it&rsquo;s podcast hosting,
-but I guarantee they don&rsquo;t use a free account. Perhaps they
-have some deal with SoundCloud where they don&rsquo;t get charged
-anything, but this type of discount arrangement is very
-different than the free account that SoundClod offers.</p>
 
-<p><a href="http://help.soundcloud.com/customer/portal/articles/247820-what-s-the-difference-between-each-subscription-level-">From SoundCloud&rsquo;s website</a>,
-you can see exactly what limitations you will run in to with
-the free account:</p>
+<h3>Notes</h3>
 
-<blockquote><p>Free</p>
+<p>Podcasting is a great way to build an audience. It creates a
+more intimate connection with listeners, vs written words.</p>
 
-<ul>
-<li><p>2 total upload hours</p></li>
-<li><p>100 downloads/sound</p></li>
-<li><p>Unlimited playlist creation</p></li>
-<li><p>Some stats (see the amount of plays, downloads, comments and favorites of your tracks)</p></li>
-</ul>
-</blockquote>
+<p>Having multiple forms of media, such as book, blog, podcast,
+etc, helps you build authority.</p>
 
-<h2>Free Trial and &ldquo;Freemium&rdquo; Are Legit</h2>
+<p>Podcasts introduce conversation instead of monologue. It&rsquo;s
+easier to generate ideas, create something more valuable and
+get more out of a conversation than a monologue, at times.</p>
 
-<p>There are other types of &ldquo;Free&rdquo; accounts than &ldquo;I&rsquo;ll give you
-something for nothing&rdquo;, though.</p>
+<p>Choosing a name is hard &ndash; don&rsquo;t want to be too narrow, but
+also want to identify and serve your audience, and deliver
+value.</p>
 
-<p>Many services offer free trials
-that give you a set time limit for using the service. This
-type of &ldquo;free&rdquo; is usually legit. It gives you a way to try
-out a service without having to pay anything, knowing that
-if you like the service you&rsquo;ll have to pay to continue with
-it. There&rsquo;s nothing wrong with free trials, and I actually
-encourage people to try as many free trials as they need to,
-to figure out what service fits their needs the best.</p>
+<p>Getting feedback from trusted resources can give you confidence.
+Even if you figure things out, find resources that teach you
+and verify what you&rsquo;ve learned.</p>
 
-<p>Other services, like SoundCloud, offer a &ldquo;freemium&rdquo; service
-type. This is a service that gives you free service, typically
-supported by ads or other monetiziation means. The free
-service will have strict limitations on what you can and
-cannot do, but won&rsquo;t stop your service after a certain period
-of time. The idea is that after you get in to the service,
-you&rsquo;ll be hooked and you&rsquo;ll want to pay for the services to
-get the better features.</p>
+<p>Podcast hosting eats up a lot of bandwidth. Be sure you have
+a host that can handle the bandwidth. Find <a href="http://signalleaf.com">a podcast host</a>
+when possible.</p>
 
-<p>There&rsquo;s some debate about &ldquo;freemium&rdquo; services these days, with
-a lot of companies saying it&rsquo;s not viable, and even some
-companies going out of business because of it. Now imaging
-how bad that would be if you were a paying customer of a
-service and all the free accounts caused the service to go
-out of business! I&rsquo;d be pretty upset about that.</p>
+<p>Average life of a podcast episode is 6 weeks. Bandwidth is
+typically measured per month, but bandwidth for an episode can
+be estimated from the 6 week download trend for past episodes.</p>
 
-<h2>Your Best Option: Paid Podcast Hosting Service</h2>
+<p>Be careful of Feedburner and other free services. Feedburner
+limits you to 512K feed size, and will drop episodes to keep
+it small. FeedBlitz and other paid services won&rsquo;t introduce
+this type of limit.</p>
 
-<p>In the end, your best option is to pay for podcast hosting
-services. There are a lot of great services available,
-<strong>including my own at <a href="http://signalleaf.com">SignalLeaf.com</a></strong>,
-LibSyn, Blubrry, and many more. These services start cheap &ndash;
-very cheap &ndash; usually with a free trial before you actually
-have to pay for anything. My <strong>SignalLeaf</strong> service has a
-rather lengthy trial period compared to most. This gives you
-plenty of time to figure out if you want to continue with the
-service or not.</p>
+<p>Your podcast needs RSS that is compatible with as many devices
+and directories as possible. If your podcast hosting doesn&rsquo;t
+ensure this, you will want to use a third party feed distribution
+system like FeedBlitz.</p>
 
-<p>At only a few $ a month, paid podcast hosting services are
-going to give you all the space you need for file storage and
-bandwidth, provide an iTunes and other podcast app compatible
-RSS feed, and give you all the stats and feedback that you
-need for your podcast.</p>
+<p>Find a podcast / RSS host that provides the analytics you
+need. <a href="http://signalleaf.com">SignalLeaf</a> gives you a breakdown of
+RSS vs embeded player vs downloads, for traffic reports.</p>
 
-<p>All of these paid services host their files on servers that
-are going to stream your audio more reliably than any free
-service you would find. By paying a company to host your
-files, you are giving them incentive to make sure they are
-keeping you happy and doing the best job possible to keep
-your podcast rolling smoothly. SignalLeaf, for example,
-uses Amazon S3 storage and streaming of all podcast files.
-There&rsquo;s no way your listeners are going to use up the
-bandwidth of S3. You&rsquo;ll never see a slow-down in delivery,
-or have problems with file storage reliability.</p>
+<p>Trade iTunes directory reviews with other podcasters. Find podcasts
+that you&rsquo;re interested in. Listen to a few episodes, then contact
+the author and ask them to review your podcast in exchange for
+you reviewing them.</p>
 
-<p>Stats are also important if you&rsquo;re looking for motivation
-to continue podcasting, or want sponsors. You&rsquo;re not going
-to get the stats you need without paying for service, either.
-Generating stats is not as simple as most people thing, which
-is why it always takes a more expensive paid account to get
-great stats.</p>
+<p>You need a blog for your podcast, whether it&rsquo;s part of your
+primary website or a separate blog. Write a post for each
+episode with a short list of notes from the episode, at least.</p>
 
-<hr />
+<h2>Links</h2>
 
-<h2>Start Your Free Trial, Now!</h2>
+<p><a href="http://funnyant.com">Craig McKeachie / FunnyAnt</a></p>
 
-<p>If you&rsquo;re serious about your podcasts, do yourself a favor
-and get <a href="http://signalleaf.com">a podcast hosting service</a> to
-handle the heavy lifting and distribution of your content.
-You&rsquo;ll never be happier than if reduce your own burden so
-that you can focus on the content, not the content delivery.</p>
+<p><a href="http://podcastanswerman.com">Cliff Ravenscraft / Podcast Answerman</a></p>
+
+<p><a href="http://www.softwarebyrob.com/">Rob Wahling</a></p>
+
+<p><a href="http://www.smartpassiveincome.com/">Pat Flynn / Smart Passive Income</a></p>
+
+<p><a href="http://mixergy.com">Mixergy</a></p>
+
+<p><a href="http://www.entrepreneuronfire.com/">Entrepreneur On Fire</a></p>
+
+<p><a href="http://jsjabber.com">JavaScript Jabber</a></p>
+
+<p><a href="http://feedblitz.com">FeedBlitz</a></p>
+
+<p><a href="http://getupandcode.com">GetUpAndCode.com</a></p>
+
+<p><a href="http://simpleprogrammer.com">SimpleProgrammer.com</a></p>
 </div>
 
 
@@ -366,12 +303,12 @@ that you can focus on the content, not the content delivery.</p>
   
 
 
-<time datetime="2013-12-04T21:31:00-06:00" pubdate data-updated="true">Dec 4<span>th</span>, 2013</time>
+<time datetime="2014-01-14T07:53:00-06:00" pubdate data-updated="true">Jan 14<span>th</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/cdn/'>cdn</a>, <a class='category' href='/blog/categories/free-service/'>free service</a>, <a class='category' href='/blog/categories/free-trial/'>free trial</a>, <a class='category' href='/blog/categories/freemium/'>freemium</a>, <a class='category' href='/blog/categories/hosting/'>hosting</a>, <a class='category' href='/blog/categories/paid-service/'>paid service</a>
+    <a class='category' href='/blog/categories/equipment/'>equipment</a>, <a class='category' href='/blog/categories/getting-started/'>getting started</a>, <a class='category' href='/blog/categories/interview/'>interview</a>, <a class='category' href='/blog/categories/podcast/'>podcast</a>, <a class='category' href='/blog/categories/tips/'>tips</a>
   
 </span>
 
@@ -380,7 +317,7 @@ that you can focus on the content, not the content delivery.</p>
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://blog.signalleaf.com/blog/2013/12/04/why-free-hosting-isnt-always-free/" data-via="signalleaf" data-counturl="http://blog.signalleaf.com/blog/2013/12/04/why-free-hosting-isnt-always-free/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://blog.signalleaf.com/blog/2014/01/14/episode-4-with-craig-mckeachie/" data-via="signalleaf" data-counturl="http://blog.signalleaf.com/blog/2014/01/14/episode-4-with-craig-mckeachie/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -393,10 +330,8 @@ that you can focus on the content, not the content delivery.</p>
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2013/11/20/episode-2-the-mic-positioning-and-room-is-more-important/" title="Previous Post: Episode 2: Mic Positioning And Room Are More Important">&laquo; Episode 2: Mic Positioning And Room Are More Important</a>
+        <a class="basic-alignment left" href="/blog/2014/01/11/other-podcasters-resources/" title="Previous Post: Other Podcasters' Resources">&laquo; Other Podcasters' Resources</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2013/12/07/episode-3-tips-on-podcasting-with-podcaster-john-sonmez/" title="Next Post: Episode 3: Tips On Podcasting With Podcaster, John Sonmez">Episode 3: Tips On Podcasting With Podcaster, John Sonmez &raquo;</a>
       
     </p>
   </footer>
@@ -612,8 +547,8 @@ that you can focus on the content, not the content delivery.</p>
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://blog.signalleaf.com/blog/2013/12/04/why-free-hosting-isnt-always-free/';
-        var disqus_url = 'http://blog.signalleaf.com/blog/2013/12/04/why-free-hosting-isnt-always-free/';
+        var disqus_identifier = 'http://blog.signalleaf.com/blog/2014/01/14/episode-4-with-craig-mckeachie/';
+        var disqus_url = 'http://blog.signalleaf.com/blog/2014/01/14/episode-4-with-craig-mckeachie/';
         var disqus_script = 'embed.js';
       
     (function () {
