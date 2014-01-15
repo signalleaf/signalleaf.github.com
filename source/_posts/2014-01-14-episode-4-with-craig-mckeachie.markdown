@@ -6,7 +6,7 @@ comments: true
 categories: [podcast, interview, getting started, equipment, tips]
 ---
 
-**Episode 4 of the Signals & Leaves, with [Craig McKeachie](http://www.funnyant.com/).**
+**Signals And Leaves, Episode 4 with [Craig McKeachie](http://www.funnyant.com/).**
 
 Craig is starting up a new podcast on front-end web development
 and is going through all the usual steps of getting started,
