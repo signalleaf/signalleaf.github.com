@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Podcast Spotlights: Pop Culture, Video Games And Being A Prepared Idiot"
-date: 2014-01-16 14:17
+date: 2014-01-16 8:17
 comments: true
 categories: [podcast spotlight, video games, pop culture, movies]
 ---
