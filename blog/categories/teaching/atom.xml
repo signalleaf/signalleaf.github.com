@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: teaching | Signals And Leaves]]></title>
+  <link href="http://blog.signalleaf.com/blog/categories/teaching/atom.xml" rel="self"/>
+  <link href="http://blog.signalleaf.com/"/>
+  <updated>2014-01-26T12:44:04-06:00</updated>
+  <id>http://blog.signalleaf.com/</id>
+  <author>
+    <name><![CDATA[Derick Bailey]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Episode 5 With Rob Conery: Don't Suck]]></title>
+    <link href="http://blog.signalleaf.com/blog/2014/01/26/episode-5-with-rob-conery-dont-suck/"/>
+    <updated>2014-01-26T12:28:00-06:00</updated>
+    <id>http://blog.signalleaf.com/blog/2014/01/26/episode-5-with-rob-conery-dont-suck</id>
+    <content type="html"><![CDATA[<p>In this episode of the Signals &amp; Leaves podcast, I have the
+pleasure of interviewing <a href="https://twitter.com/robconery">Rob Conery</a>
+&ndash; a well known software developer,
+<a href="http://wekeroad.com">blogger</a>,
+<a href="http://tekpub.com">screencaster</a> and
+<a href="http://thisdeveloperslife.com">podcaster</a>.</p>
+
+<p>Rob has an amazing
+ability to create compelling stories out of interviews and
+additional information that he gathers while researching a
+subject. He has a knack for finding what he calls &ldquo;the truth&rdquo;
+in an interview &ndash; that deep down part of the story where
+the person talking is lost in thought, expressing their
+inner-most sense of themselves in whatever they are talking
+about. And I was lucky enough to get Rob to share how he
+approaches story tellign in podcast, how he digs further for
+the truth of the story, and how he puts it all together to
+create something wonderful.</p>
+
+<!-- more -->
+
+
+<h2>The Show</h2>
+
+<iframe src="http://media.signalleaf.com/player/Signals-And-Leaves/52e5567fd97de30200000004/" width="500" height="70" frameborder="0"></iframe>
+
+
+<h2>The Interview</h2>
+
+<p>Along the path of this interview, Rob turns the tables on
+me and shows how he approaches this by interviewing me about
+this podcast. He talks about what it&rsquo;s like to keep digging
+and to really listen for that moment when the speaker&rsquo;s voice
+changes &ndash; the nuance that says the speaker is finally down to
+the point where they are speaking from the heart of the
+matter.</p>
+
+<p>There more to it the interview than just the art of story
+telling, though. We cover teaching, editing, adding dramatic
+pause and affecting the over-all story as well.</p>
+
+<p>Lastly, and perhaps most importantly, you&rsquo;ll also find out
+what Rob means when he tells you, &ldquo;Don&rsquo;t suck.&rdquo; Don&rsquo;t suck
+at podcasting. Don&rsquo;t suck at conversations. Just don&rsquo;t suck.
+It sounds like a rude awakening, and it may be for some. But
+the point he makes is tremendously valuable.</p>
+
+<h2>Links</h2>
+
+<ul>
+<li><a href="http://twitter.com/robconery">@robconery</a></li>
+<li><a href="http://wekeroad.com">Rob&rsquo;s Blog</a></li>
+<li><a href="http://tekpub.com">Tekpub.com</a></li>
+<li><a href="http://www.hanselman.com/">Scott Hanselman</a></li>
+<li><a href="http://hanselminutes.com">HanselMinutes</a></li>
+<li><a href="http://thisdeveloperslife.com">This Developer&rsquo;s Life</a></li>
+<li><a href="http://www.thisamericanlife.org/">This American Life</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
