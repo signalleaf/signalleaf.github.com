@@ -4,7 +4,7 @@
   <title><![CDATA[Category: tips | Signals And Leaves]]></title>
   <link href="http://blog.signalleaf.com/blog/categories/tips/atom.xml" rel="self"/>
   <link href="http://blog.signalleaf.com/"/>
-  <updated>2014-01-31T10:20:45-06:00</updated>
+  <updated>2014-01-31T10:21:54-06:00</updated>
   <id>http://blog.signalleaf.com/</id>
   <author>
     <name><![CDATA[Derick Bailey]]></name>
@@ -19,9 +19,11 @@
     <updated>2014-01-31T09:50:00-06:00</updated>
     <id>http://blog.signalleaf.com/blog/2014/01/31/how-to-remove-background-noise-with-audacity</id>
     <content type="html"><![CDATA[<p>Noise from ventilation systems, cars driving down the street,
-keeping yourself warm with a heater, or even the hum of
+keeping yourself warm with a heater or even the hum of
 flourescent lighting &ndash; these are all sources of background
-noise that can make or break your audio quality. Having a
+noise that can make or break your audio quality.</p>
+
+<p>Having a
 constant hum or buzz in the background can be very distracting
 and cause people to turn away from your podcast. Fortunately,
 the <a href="http://audacity.sourceforge.net/">Audacity</a> audio
