@@ -67,8 +67,14 @@
         <lastmod>2014-01-26T12:44:03-06:00</lastmod>
     </url>
     <url>
+        <loc>
+            http://blog.signalleaf.com/blog/2014/01/31/how-to-remove-background-noise-with-audacity/
+        </loc>
+        <lastmod>2014-01-31T10:20:45-06:00</lastmod>
+    </url>
+    <url>
         <loc>http://blog.signalleaf.com/blog/archives/</loc>
-        <lastmod>2014-01-26T12:44:03-06:00</lastmod>
+        <lastmod>2014-01-31T10:20:45-06:00</lastmod>
     </url>
     <url>
         <loc>http://blog.signalleaf.com/equipment/</loc>
@@ -80,7 +86,7 @@
     </url>
     <url>
         <loc>http://blog.signalleaf.com/</loc>
-        <lastmod>2014-01-26T12:44:03-06:00</lastmod>
+        <lastmod>2014-01-31T10:20:45-06:00</lastmod>
     </url>
     <url>
         <loc>http://blog.signalleaf.com/robots.txt</loc>
