@@ -7,9 +7,11 @@ categories: [podcasting, tips, audio]
 ---
 
 Noise from ventilation systems, cars driving down the street, 
-keeping yourself warm with a heater, or even the hum of
+keeping yourself warm with a heater or even the hum of
 flourescent lighting - these are all sources of background 
-noise that can make or break your audio quality. Having a
+noise that can make or break your audio quality. 
+
+Having a
 constant hum or buzz in the background can be very distracting
 and cause people to turn away from your podcast. Fortunately,
 the [Audacity](http://audacity.sourceforge.net/) audio 
