@@ -50,7 +50,7 @@ you faster than not getting your podcast published and live
 for the world to hear.** The sense of accomplishment and having
 produced something is a tremendously motivating thing. You'll
 find that once you start the work - once you start recording
-and publishing episodes - that you want to do more. 
+and publishing episodes - you'll want to do more. 
 
 Getting started and getting your first episode published is
 by far the most important thing you can do for your podcasting
@@ -67,25 +67,25 @@ podcast.
 **Stop. Watching. Your. Reports.**
 
 Here's the deal, and the reason this is so important: podcasts
-are an inconsisten stream of traffic per episode. You might see a
+are an inconsistent stream of traffic per episode. You might see a
 number that you like after the first week of your first episode.
 You might even see a bump after the second week. But once you
-release that second episode, the numbers won't be as high.
-The third episode? Even lower. **THIS IS NORMAL!**
+release that second or third episode, the numbers won't be as high.
+And the next episode? Even lower. **THIS IS NORMAL!**
 
 The average shelf life of a podcast episode is 6 weeks. **6
 weeks.** This means your first episode will continue to accrue
 traffic for around 6 weeks. You'll stil get traffic hitting it
 after that, but it won't be as steady. During that 6 weeks of
 life for your first episode, your other episodes won't have
-as much traffice. You'll see a natural dip in the numbers
+as much traffic. You'll see a natural dip in the numbers
 because those episodes haven't been around as long and won't
 instantly catch up or shoot past your first one. 
 
 **It takes time for the numbers to settle in and level out. 
-Only after this shelf life will you be able to see that your 
-audience is growing.** And it's the slow, steady growth after
-the 6 week mark that you want to see.
+Only after the shelf life of your first episode will you be able 
+to see that your audience is growing.** And it's the slow, steady 
+growth of a continuing podcast, week after week, that you want to see.
 
 ## #2: Don't Wait For Listeners To Find You
 
@@ -93,9 +93,10 @@ the 6 week mark that you want to see.
 
 **the Field Of Dreams Fallacy
 has cursed a generation of movie lovers in to thinking that
-they will have instant fans and stardom** if they just build it
-and ship it, people will find it and love them. **This couldn't
-be further from the truth.** But you know what? That's ok. 
+they will have instant fans and stardom.** The idea is that
+if you just build it and ship it, people will find it and love
+you. **This couldn't be further from the truth.** But you 
+know what? That's ok. 
 
 **You're not doing this for instant
 celebrity status**, and the drug-rush of watching your stats
@@ -107,11 +108,11 @@ to our podcast, or tells us something on twitter, facebook,
 and every other site in the world. 
 
 **Get 10 episodes published, first** - not just "done", but
-actually published. Talk the episodes on twitter, facebook,
+actually published. Talk about the episodes on twitter, facebook,
 pinterest and everywhere else. Blog about the episodes - **every
-episode gets a blog post**, in fact. Find places where people 
-that would benefit from your podcast are found, and tell those 
-people about your podcast. Do this for 10 episodes and then 
+episode gets a blog post**, in fact. Find places with people 
+that would benefit from your podcast and tell those 
+people about it. Do this for 10 episodes and then 
 start looking at your stats. You'll see growth, instead of flat 
 or falling numbers. 
 
@@ -139,10 +140,10 @@ kids are starting to wonder where you're at in the evenings...
 you need to have a regular and set schedule in order to be
 a podcaster. After all, most of the podcasting industry tells
 you this. **Don't believe it for a minute.** This is your
-podcast. This is your story; your life; your work. You and only
+podcast; this is your story; your life; your work. You and only
 you are in charge of how often you release an episode. 
 
-Just because you missed a week, or you only have time to 
+Just because you missed a week (or 7), or you only have time to 
 release one episode every month, doesn't mean you should
 give up. Schedule the time for your podcast, like you would
 do with anything else in your life. Set time aside, but 
