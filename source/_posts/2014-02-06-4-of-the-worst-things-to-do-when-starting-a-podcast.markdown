@@ -19,7 +19,7 @@ that you should avoid doing when you're starting out. Understanding
 what you should *not* do is just as important as understanding
 what you *should* be doing - sometimes more important. These are
 the things that will drive you to drink, if you're not careful.
-These the things that you should avoid doing, at all costs.
+These are the things that you should avoid doing, at all costs.
 
 ![](/images/blog_posts/stop_drinking.jpg)
 
