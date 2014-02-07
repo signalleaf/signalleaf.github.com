@@ -38,12 +38,14 @@ any actual progress.
 
 Unforunately, it's in our nature to procrastinate. Even the 
 most amazing podcasters, like [John Lee Dumas](http://eofire.com), 
-have fallen victim to the delays. In [his interview with the Launching Creative podcast](http://launchingcreative.com/episode-1/),
-John talked about how he was delaying and delaying until his
+have fallen victim to the delays. In [his interview with the Launching Creative podcast](http://launchingcreative.com/episode-1/)
+[starting at 31:25], John talked about how he was delaying and delaying until his
 mentor finally said that he would be dropped as a client if he
 didn't release the first episode that day. In the end, John
 realized that the delays he put on himself were only setting
 him back, not helping him. 
+
+> "Get out there. Launch. Fail. Make mistakes. Improve." - John Lee Dumas
 
 **There is nothing that will demotivate
 you faster than not getting your podcast published and live
