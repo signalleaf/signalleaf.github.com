@@ -163,6 +163,6 @@ based on your needs that are not yet being met.
 
 So drop a comment here. Send me [an email](http://signalleaf.com/help/contact). 
 Get in touch over [twitter](http://twitter.com/signalleaf) or 
-[Google+](https://plus.google.com/+DerickBailey/posts) and let me know: 
+[Google+](https://plus.google.com/+DerickBailey/posts/HoCLiT4TJqH) and let me know: 
 
 > What reports do you want and need for your podcast?
