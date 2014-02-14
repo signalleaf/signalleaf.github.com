@@ -79,8 +79,14 @@
         <lastmod>2014-02-07T08:45:02-06:00</lastmod>
     </url>
     <url>
+        <loc>
+            http://blog.signalleaf.com/blog/2014/02/14/what-reports-do-you-need-for-your-podcast/
+        </loc>
+        <lastmod>2014-02-14T09:24:24-06:00</lastmod>
+    </url>
+    <url>
         <loc>http://blog.signalleaf.com/blog/archives/</loc>
-        <lastmod>2014-02-07T08:45:02-06:00</lastmod>
+        <lastmod>2014-02-14T09:24:24-06:00</lastmod>
     </url>
     <url>
         <loc>http://blog.signalleaf.com/equipment/</loc>
@@ -92,7 +98,7 @@
     </url>
     <url>
         <loc>http://blog.signalleaf.com/</loc>
-        <lastmod>2014-02-07T08:45:02-06:00</lastmod>
+        <lastmod>2014-02-14T09:24:24-06:00</lastmod>
     </url>
     <url>
         <loc>http://blog.signalleaf.com/robots.txt</loc>

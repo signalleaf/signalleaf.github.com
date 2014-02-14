@@ -4,7 +4,7 @@
   <title><![CDATA[Category: podcasting | Signals And Leaves]]></title>
   <link href="http://blog.signalleaf.com/blog/categories/podcasting/atom.xml" rel="self"/>
   <link href="http://blog.signalleaf.com/"/>
-  <updated>2014-02-07T08:45:03-06:00</updated>
+  <updated>2014-02-14T09:24:25-06:00</updated>
   <id>http://blog.signalleaf.com/</id>
   <author>
     <name><![CDATA[Derick Bailey]]></name>
@@ -12,6 +12,175 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[What Reports Do You Need For Your Podcast?]]></title>
+    <link href="http://blog.signalleaf.com/blog/2014/02/14/what-reports-do-you-need-for-your-podcast/"/>
+    <updated>2014-02-14T08:29:00-06:00</updated>
+    <id>http://blog.signalleaf.com/blog/2014/02/14/what-reports-do-you-need-for-your-podcast</id>
+    <content type="html"><![CDATA[<p><img class="center" src="http://blog.signalleaf.com/images/blog_posts/advanced_podcast_report.png" width="300"></p>
+
+<p>For some, podcasting is a creative outlet. It provides a way for
+them to build an audience and create relationships and connections
+with other like minded people. For the creative types that do
+this for fun, having reports to show them how many listeners
+they are getting is nice. They get to see how many people they
+are potentially influencing, and it may help to drive them to
+do more or do better.</p>
+
+<p>For others, though, podcasting is more than just a hobby or an
+outlet. It&rsquo;s a way of creating income, of sustaining themselves
+or their family. For these podcaster, reports are critical.
+They need to see how many downloads an individual episode has.
+They need to see trends on what episodes are most effective.
+They need to report these numbers to sponsors and potential
+sponsors, so they can continue to bring in the income they
+need.</p>
+
+<p>With two very distinct audiences to serve, a report system for
+a podcast can become overwhelming or underwhelming quickly. A
+podcaster looking for simple reports may not care about having
+everything. A podcaster that needs everything may get frustrated
+at not having enough. Targeting different levels of reprots at
+these two different audiences becomes important. But just having
+this split doesn&rsquo;t answer the one fundamental question:</p>
+
+<blockquote><p>What reports do you need?</p></blockquote>
+
+<!-- more -->
+
+
+<h2>SignalLeaf&rsquo;s Current Reports</h2>
+
+<p>I&rsquo;m currently offering two different plans in SignalLeaf, to
+differentiate between the two different types of reports that
+people will need. This boils down to basic reports and advanced
+reports, with the goal of serving the two identified audience
+groups from above.</p>
+
+<h3>The Basic Reports</h3>
+
+<p>The cheapest plan offers a few very basic reports. At the
+podcast, it will give you a total count of plays broken down
+by type (rss, downloaded and SignalLeaf player). It will also
+show you the total RSS subscriber count.</p>
+
+<p><img class="center" src="http://blog.signalleaf.com/images/blog_posts/basic_podcast_report.png"></p>
+
+<p>At the episode level, this plan offers episode totals, broken
+down by the same categories of RSS, downloads and use of the
+SignalLeaf player.</p>
+
+<p><img class="center" src="http://blog.signalleaf.com/images/blog_posts/basic_episode_report.png"></p>
+
+<h3>The Advanced Reports</h3>
+
+<p>At the mid level and advanced plans, you&rsquo;ll get a bit more
+information and breakdown in both the podcast and episode
+reports. You&rsquo;ll get the same basic information, of course, but
+the advanced reports add a little more.</p>
+
+<p>The podcast level report offers a 30 day subscriber history,
+so you can see the most recent trend of your subscriber count.
+You will hopefully be seeing growth over time, but you will
+likely see the numbers bouncing up and down on any individual
+day. Not everyone has their podcast player open every day,
+which means they are not always checking for new episodes.</p>
+
+<p>Additionally, the advanced report will show you current trends
+for episodes at a weekly and monthly level. You&rsquo;ll be able to
+see which episodes are getting the most plays for these two
+time periods.</p>
+
+<p><img class="center" src="http://blog.signalleaf.com/images/blog_posts/advanced_podcast_report.png"></p>
+
+<p>At the episode level, you&rsquo;ll get teh same episode totals, but
+you&rsquo;ll also see weekly and monthly counts for the episode.</p>
+
+<p><img class="center" src="http://blog.signalleaf.com/images/blog_posts/advanced_episode_report.png"></p>
+
+<h2>Totals: A Breakdown By Listen Type</h2>
+
+<p>One of the advantages that SignalLeaf&rsquo;s reports have over others,
+is the breakdown of listens by type: RSS, Download and use of
+the SignalLeaf player.</p>
+
+<p><img class="center" src="http://blog.signalleaf.com/images/blog_posts/listen_breakdown.png"></p>
+
+<p>This gives you a more accurate picture of how people are finding
+and listening to your podcast and episodes. Getting this breakdown
+does require you to take advantage of all of SignalLeaf&rsquo;s
+features, though. If you&rsquo;re hosting your own RSS feed and
+providing your own media player for blog posts through
+PowerPress, for example, you won&rsquo;t be able to get this kind
+of breakdown. SignalLeaf&rsquo;s RSS, player and direct download
+links all contain a tag that tells me what type of listen
+is being used. This allows me to capture all of the information
+I need for this report, but it means you have to use the
+RSS and media player provided by SignalLeaf to take advantage
+of it.</p>
+
+<h3>Why Would You Want To?</h3>
+
+<p>A while back, Pat Flynn from
+<a href="http://smartpassiveincome.com">Smart Passive Income</a> went through
+<a href="http://www.smartpassiveincome.com/spi-theme-design/">a major redesign of the site</a>.
+In the process of doing this, <strong>the first version of his
+redesign caused a more than 50% drop in his listens!</strong></p>
+
+<p><sub>(Image from <a href="http://www.smartpassiveincome.com/spi-theme-design/">Pat&rsquo;s blog post</a>)</sub>
+<img src="http://cdn.smartpassiveincome.com/wp-content/uploads/2013/12/redesigndrop2.jpg" alt="" /></p>
+
+<p>Clearly, this is not what he wanted. And clearly, it would have
+been nice to prevent this. But Pat did the right thing, and
+fixed the site design so that podcast episodes were easier to
+find and play. He quickly reacted, fixed the problem and got
+his plays back up to where they should be.</p>
+
+<p>Here&rsquo;s the important lesson, though: <strong>if Pat had been using
+a report setup like SignalLeaf provides, he would have known
+that his audience was largely finding and listening to episodes
+through his website, before going through this redesign!</strong>
+Having this information could have helped him make better
+decisions up front, instead of having to see this massive
+drop in plays, after the first release of the website.</p>
+
+<p>Now
+that&rsquo;s not to say it would have prevent the drop. You make
+decisions based on the information you have, and you adjust
+from there. But having this information up front may have
+helped. Knowing where the majority of your audience listens
+to your episodes will help you to optimize that experience.
+Knowing, not guessing or assuming, is important.</p>
+
+<h2>Building Reports Based On Needs</h2>
+
+<p>Here&rsquo;s the thing: <strong>I understand that these reports are not nearly
+as &ldquo;complete&rdquo; as some other services out there.</strong> This is somewhat
+intentional. Honestly, I have a lot more data availabe than what
+I&rsquo;m currently showing. But <strong>throwing more data at you, just for the
+sake of having more reports is not the answer.</strong></p>
+
+<p>The reports that I have in place, and the breakdown of listens
+are here because I saw the need for this based on customer
+feedback. This is the key and critical part of the reports
+that I&rsquo;m building &ndash; <strong>they are based on your neeeds, not just
+tossing more information out there in the hopes that I get
+soemthing right</strong> and provide some value.</p>
+
+<p><strong>I want to know what reports you need.</strong> I want to know what
+information you need to see, and why. I want to know that the
+reports you are getting are serving you the way you need
+them to serve you. And I want to build new and better reports
+based on your needs that are not yet being met.</p>
+
+<p>So drop a comment here. Send me <a href="http://signalleaf.com/help/contact">an email</a>.
+Get in touch over <a href="http://twitter.com/signalleaf">twitter</a> or
+<a href="https://plus.google.com/+DerickBailey/posts">Google+</a> and let me know:</p>
+
+<blockquote><p>What reports do you want and need for your podcast?</p></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[4 Of The Worst Things To Do When Starting A Podcast]]></title>
@@ -602,74 +771,6 @@ at no charge</strong>.</p>
 
 <script async src="http://blog.signalleaf.com//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Prepare, Produce, Publish: Stop Waiting And Start Podcasting!]]></title>
-    <link href="http://blog.signalleaf.com/blog/2013/12/17/announcing-the-prepare-produce-publish-ebook/"/>
-    <updated>2013-12-17T13:15:00-06:00</updated>
-    <id>http://blog.signalleaf.com/blog/2013/12/17/announcing-the-prepare-produce-publish-ebook</id>
-    <content type="html"><![CDATA[<p>You want to start a podcast. You&rsquo;ve got something to say,
-and you know that people want to hear it. So what are you
-waiting for? <strong>Stop wasting your time, waiting for the right mic or the
-right co-host!</strong></p>
-
-<p>With nothing more than a laptop and an
-internet connection, you can join the new media revolution and publish
-your voice, your thoughts and your opinions to the world!</p>
-
-<p><a href="http://blog.signalleaf.com/how-to-podcast" target="_blank" class="center"><img src="http://blog.signalleaf.com/images/prepare-produce-publish-cover.png"></a></p>
-
-<!-- more -->
-
-
-<h2>Publish Your First Podcast, TODAY</h2>
-
-<p>Today. I mean, today! With my e-book,
-&ldquo;<a href="https://leanpub.com/prepare-produce-publish/packages/book/purchases/new">Prepare, Produce, Publish: Your First Podcast In 3 Easy Steps!</a>&rdquo;,
-you will be up and running and have your first episode
-published in no time at all!</p>
-
-<p>This book is all about getting you started in the world of
-podcasting &ndash; from the equipment that you need (<em>and don&rsquo;t need!</em>)
-to using Audacity for recording your first episode, and how
-to publish your podcast through a hosting service, this book
-covers it all for for the new podcaster.</p>
-
-<h2>GET IT FREE! WITH FREE UPDATES!</h2>
-
-<p>This e-book, which would cost $10 if you decide to buy it,
-can be yours for free by <a href="http://www.signalleaf.com/help/mailing-list">signing up for the SignalLeaf mailing list</a>!</p>
-
-<p>In addition to this informational and step-by-step guide
-to publishing your first podcast, you&rsquo;ll get updates and
-news from the podcasting world. From blog posts, to tips
-and tricks, from podcasters and professionals to those that
-are just starting out, you&rsquo;ll hear all the latest news
-<a href="http://www.signalleaf.com/help/mailing-list">right here</a>.</p>
-
-<h2>A Work In Progress</h2>
-
-<p>This ebook is currently a work in progress. That means it is
-not yet complete, but it still provides a ton of value as-is.
-That also means that <strong>you, dear podcaster, get to purchase the
-book at a discounted price!</strong> Better hurry, though&hellip; this
-discount won&rsquo;t last forever! Once I&rsquo;ve got the book completed,
-the price will jump!</p>
-
-<p>In addition to getting it cheaper, you will also get all of
-the updates, free! As soon as I publish an update to the book
-you will have it available in your downloads, guaranteed. That
-means you&rsquo;ll get all of the step by step instructions, tips
-and tricks to publish your podcast as I write them!</p>
-
-<h2>Get Your Podcast Published</h2>
-
-<p>I know you&rsquo;ve been thinking about starting a podcast, so
-<a href="http://www.signalleaf.com/help/mailing-list">join the SignalLeaf mailing list</a>
-and get the guide to publishing
-your podcast, FREE!</p>
 ]]></content>
   </entry>
   
