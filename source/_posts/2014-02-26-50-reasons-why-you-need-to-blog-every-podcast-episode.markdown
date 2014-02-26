@@ -73,7 +73,7 @@ Higher search engine traffic means building a larger audience.
 Building a larger audience means getting better sponsors
 (if that's your thing) and having more influence and credibility.
 
-## Reason #50: 50% Of Your Audience Will Listed via The Blog Post
+## Reason #50%: Half Of Your Audience Will Listen via The Blog Post
 
 Ok, I lied. This is actually the #1 reason that you should
 blog every episode. While #1 and #2 listed above are great
