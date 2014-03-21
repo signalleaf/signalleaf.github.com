@@ -91,8 +91,14 @@
         <lastmod>2014-02-26T14:41:51-06:00</lastmod>
     </url>
     <url>
+        <loc>
+            http://blog.signalleaf.com/blog/2014/03/21/the-1-thing-you-need-to-know-about-your-rss-feed/
+        </loc>
+        <lastmod>2014-03-21T09:22:33-05:00</lastmod>
+    </url>
+    <url>
         <loc>http://blog.signalleaf.com/blog/archives/</loc>
-        <lastmod>2014-02-26T14:41:51-06:00</lastmod>
+        <lastmod>2014-03-21T09:22:33-05:00</lastmod>
     </url>
     <url>
         <loc>http://blog.signalleaf.com/equipment/</loc>
@@ -104,7 +110,7 @@
     </url>
     <url>
         <loc>http://blog.signalleaf.com/</loc>
-        <lastmod>2014-02-26T14:41:51-06:00</lastmod>
+        <lastmod>2014-03-21T09:22:33-05:00</lastmod>
     </url>
     <url>
         <loc>http://blog.signalleaf.com/robots.txt</loc>
