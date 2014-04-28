@@ -97,8 +97,14 @@
         <lastmod>2014-03-21T09:22:33-05:00</lastmod>
     </url>
     <url>
+        <loc>
+            http://blog.signalleaf.com/blog/2014/04/28/correcting-episode-tracking-for-mobile-and-other-devices/
+        </loc>
+        <lastmod>2014-04-28T13:10:26-05:00</lastmod>
+    </url>
+    <url>
         <loc>http://blog.signalleaf.com/blog/archives/</loc>
-        <lastmod>2014-03-21T09:22:33-05:00</lastmod>
+        <lastmod>2014-04-28T13:10:26-05:00</lastmod>
     </url>
     <url>
         <loc>http://blog.signalleaf.com/equipment/</loc>
@@ -110,7 +116,7 @@
     </url>
     <url>
         <loc>http://blog.signalleaf.com/</loc>
-        <lastmod>2014-03-21T09:22:33-05:00</lastmod>
+        <lastmod>2014-04-28T13:10:26-05:00</lastmod>
     </url>
     <url>
         <loc>http://blog.signalleaf.com/robots.txt</loc>

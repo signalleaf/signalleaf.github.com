@@ -4,7 +4,7 @@
   <title><![CDATA[Signals And Leaves]]></title>
   <link href="http://blog.signalleaf.com/atom.xml" rel="self"/>
   <link href="http://blog.signalleaf.com/"/>
-  <updated>2014-03-21T09:22:34-05:00</updated>
+  <updated>2014-04-28T13:10:26-05:00</updated>
   <id>http://blog.signalleaf.com/</id>
   <author>
     <name><![CDATA[Derick Bailey]]></name>
@@ -12,6 +12,115 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Correcting Episode Tracking For Mobile And Other Devices]]></title>
+    <link href="http://blog.signalleaf.com/blog/2014/04/28/correcting-episode-tracking-for-mobile-and-other-devices/"/>
+    <updated>2014-04-28T12:43:00-05:00</updated>
+    <id>http://blog.signalleaf.com/blog/2014/04/28/correcting-episode-tracking-for-mobile-and-other-devices</id>
+    <content type="html"><![CDATA[<p>A while back, one of the SignalLeaf users notified me of a
+problem with their episode download stats. In a podcast that
+has near 50 episodes with around 1,200 listens per episode
+on average, one of the episodes spiked up to more than
+22,000 listens&hellip; at least, the episode report said it did.
+That didn&rsquo;t seem right to the podcaster, and certainly didn&rsquo;t
+seem right to me. And it turns out it wasn&rsquo;t right&hellip; at least,
+it wasn&rsquo;t the expected results even if it was technically
+correct.</p>
+
+<p><img src="http://blog.signalleaf.com/images/blog_posts/true-or-false-confused.jpg" class="center"></p>
+
+<!-- more -->
+
+
+<p>It got worse, though. More podcasters reported similar problems,
+over time. I thought the first big report was strange, but it
+was getting to be a real problem now. So I dug in to see what
+was going on and analyized the traffic reports. I wanted to see
+if there was a pattern to the extraneous tracking downloads.
+Were they just duplicates? Were they DDoS attacks? or ???</p>
+
+<h2>Legit But Incorrect</h2>
+
+<p>It turns out the entries were all legitimate. There was no
+bot-net trying to take down my server. These were not duplicate
+entries. What they were, though, was a mistake based on not
+understanding how mobile devices download episodes.</p>
+
+<p>The code I have in place to track downloads makes a new entry
+for every single request that comes in for an episode. This is
+pretty straight-forward and has worked well for a while now.
+When a download happens (whether its through iTunes, a direct
+download of the file, or however it happens), an entry is made
+in the episode tracking. What I didn&rsquo;t anticipate, though, was
+the way mobile devices make multiple requests for a single
+file.</p>
+
+<h2>HTTP Byte Range Requests</h2>
+
+<p>Most browsers and desktop podcast apps like iTunes make a single
+request for an episode file when they need it. They reach out
+to the podcast media host (SignalLeaf in this case) and
+ask the host for the file. They download it and life goes on.</p>
+
+<p>Mobile devices, however, don&rsquo;t always have a stable network
+on which to run. They need to account for downloads starting
+and stopping and networks shutting off and coming back on. To
+do this, mobile devices use an HTTP Byte Range Request to
+request only a small amount of information at a time &ndash; something
+that will be easy to download on an unreliable network. The
+device then records the last request made so that it can
+continue where it left off. Continuing the download happens
+almost right away in most cases, but sometimes happens much
+much later if the device lost it&rsquo;s network connection.</p>
+
+<p>This is significant because a request for a podcast that is
+50 megs will generate hundreds or thousands of requests to
+download that one file. And SignalLeaf was recording each
+request as a new download. In the worst case that I have
+recorded, there were more than 63,000 requests to download a
+single file! The device in question spent nearly 11 hours
+making a request per second for a tiny amount of information
+in each request. This is a ridiculously large number of
+requests over a ridiculously large period of time, but it&rsquo;s
+what the device was doing.</p>
+
+<p>Imaging having a podcast that gets a few hundred downloads
+per episode, and suddenly having 63,000 for one episode! That
+wouldn&rsquo;t make sense to you or me. Instead, you would expect
+that one device to have 1 entry in the episode download
+report. This is what I would expect, too.</p>
+
+<h2>Correcting The Problem, Moving Forward</h2>
+
+<p>Having dug in to this, I found it&rsquo;s easy to correct the problem
+now that I know what it is. So from here on forward, SignalLeaf
+will only make an entry in the episode downloads once per
+however many requests are made from a device. No matter how
+many requests are made for the file, over how long of a period
+of time, the byte range marker in the HTTP request tells me
+that this is a continuation of a previous download and I
+don&rsquo;t need to continue tracking it.</p>
+
+<h2>What This Means For You, Podcaster</h2>
+
+<p>From here on out, your download stats for episodes will be
+more accurate and less bloated by mobile devices that are
+downloading episodes. You may see a reduction in the average
+downloads per episodes because of this. This is to be expected
+since I am now more accurately tracking the downloads.</p>
+
+<p>Previous episode tracking information is still showing all of
+the false-positive entries at the moment. I have not yet
+worked out a simple way to correct this for all episodes, but
+I have corrected a number of bad entries for the most
+egregiously large tracking problems.</p>
+
+<p>I&rsquo;ll continue to monitor the situation, of course, and will
+make sure that the podcast and episode reports for listens
+and downloads are as accurate as possible.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[The 1 Thing You Need To Know About Your RSS Feed]]></title>

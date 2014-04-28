@@ -1,0 +1,591 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Correcting Episode Tracking For Mobile And Other Devices - Signals And Leaves</title>
+  <meta name="author" content="Derick Bailey">
+
+  
+  <meta name="description" content="A while back, one of the SignalLeaf users notified me of a
+problem with their episode download stats. In a podcast that
+has near 50 episodes with &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://blog.signalleaf.com/blog/2014/04/28/correcting-episode-tracking-for-mobile-and-other-devices">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Signals And Leaves" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-20471045-9']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <div class="header-wrapper">
+    <a href="/">
+      <img class="title-logo" src="/images/signalleaf_icon.png" width="125">
+    </a>
+    <h1><a href="/">Signals And Leaves</a></h1>
+    
+      <h2 class="subtitle">The SignalLeaf.com Blog And Podcast</h2>
+    
+  </div>
+  <div class="header-links">
+    <ul>
+      <li>
+        <a href="https://itunes.apple.com/us/podcast/signals-and-leaves/id739095095">
+          <i class="fa fa-rss-square fa-lg"></i>
+          Podcast (iTunes)
+        </a>
+      </li>
+      <li>
+        <a href="http://www.signalleaf.com/podcasts/523736d466f52c0200000003/rss">
+          <i class="fa fa-rss-square fa-lg"></i>
+          Podcast (rss)
+        </a>
+      </li>
+      <li>
+        <a href="/atom.xml">
+          <i class="fa fa-rss-square fa-lg"></i>
+          Blog (rss)
+        </a>
+      </li>
+      <li>
+        <a class="twitter" href="http://twitter.com/signalleaf">
+          <i class="fa fa-twitter-square fa-lg"></i>
+          @signalleaf
+        </a>
+      </li>
+    </ul>
+  </div>
+</hgroup>
+
+</header>
+  <nav role="navigation">
+  <form action="http://google.com/search" method="get">
+    <fieldset role="search">
+      <input type="hidden" name="q" value="site:blog.signalleaf.com" />
+      <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+    </fieldset>
+  </form>
+
+<ul class="main-navigation">
+  <li>
+    <a href="/">
+      <i class="fa fa-home"></i>
+      Blog
+    </a>
+  </li>
+  <li>
+    <a href="/blog/categories/podcast/">
+      <i class="fa fa-microphone"></i>
+      Podcast
+    </a>
+  </li>
+  <li>
+    <a href="/how-to-podcast">
+      <i class="fa fa-question-circle"></i>
+      How-To Podcast
+    </a>
+  </li>
+  <li>
+    <a href="/blog/archives">
+      <i class="fa fa-archive"></i>
+      Archives
+    </a>
+  </li>
+  <li>
+    <a href="/equipment">
+      <i class="fa fa-shopping-cart"></i>
+      Equipment
+    </a>
+  </li>
+  <li>
+    <a href="http://signalleaf.com">
+      <i class="fa fa-leaf"></i>
+      SignalLeaf.com
+    </a>
+  </li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Correcting Episode Tracking for Mobile and Other Devices</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-28T12:43:00-05:00" pubdate data-updated="true">Apr 28<span>th</span>, 2014</time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://blog.signalleaf.com">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>A while back, one of the SignalLeaf users notified me of a
+problem with their episode download stats. In a podcast that
+has near 50 episodes with around 1,200 listens per episode
+on average, one of the episodes spiked up to more than
+22,000 listens&hellip; at least, the episode report said it did.
+That didn&rsquo;t seem right to the podcaster, and certainly didn&rsquo;t
+seem right to me. And it turns out it wasn&rsquo;t right&hellip; at least,
+it wasn&rsquo;t the expected results even if it was technically
+correct.</p>
+
+<p><img src="/images/blog_posts/true-or-false-confused.jpg" class="center"></p>
+
+<!-- more -->
+
+
+<p>It got worse, though. More podcasters reported similar problems,
+over time. I thought the first big report was strange, but it
+was getting to be a real problem now. So I dug in to see what
+was going on and analyized the traffic reports. I wanted to see
+if there was a pattern to the extraneous tracking downloads.
+Were they just duplicates? Were they DDoS attacks? or ???</p>
+
+<h2>Legit But Incorrect</h2>
+
+<p>It turns out the entries were all legitimate. There was no
+bot-net trying to take down my server. These were not duplicate
+entries. What they were, though, was a mistake based on not
+understanding how mobile devices download episodes.</p>
+
+<p>The code I have in place to track downloads makes a new entry
+for every single request that comes in for an episode. This is
+pretty straight-forward and has worked well for a while now.
+When a download happens (whether its through iTunes, a direct
+download of the file, or however it happens), an entry is made
+in the episode tracking. What I didn&rsquo;t anticipate, though, was
+the way mobile devices make multiple requests for a single
+file.</p>
+
+<h2>HTTP Byte Range Requests</h2>
+
+<p>Most browsers and desktop podcast apps like iTunes make a single
+request for an episode file when they need it. They reach out
+to the podcast media host (SignalLeaf in this case) and
+ask the host for the file. They download it and life goes on.</p>
+
+<p>Mobile devices, however, don&rsquo;t always have a stable network
+on which to run. They need to account for downloads starting
+and stopping and networks shutting off and coming back on. To
+do this, mobile devices use an HTTP Byte Range Request to
+request only a small amount of information at a time &ndash; something
+that will be easy to download on an unreliable network. The
+device then records the last request made so that it can
+continue where it left off. Continuing the download happens
+almost right away in most cases, but sometimes happens much
+much later if the device lost it&rsquo;s network connection.</p>
+
+<p>This is significant because a request for a podcast that is
+50 megs will generate hundreds or thousands of requests to
+download that one file. And SignalLeaf was recording each
+request as a new download. In the worst case that I have
+recorded, there were more than 63,000 requests to download a
+single file! The device in question spent nearly 11 hours
+making a request per second for a tiny amount of information
+in each request. This is a ridiculously large number of
+requests over a ridiculously large period of time, but it&rsquo;s
+what the device was doing.</p>
+
+<p>Imaging having a podcast that gets a few hundred downloads
+per episode, and suddenly having 63,000 for one episode! That
+wouldn&rsquo;t make sense to you or me. Instead, you would expect
+that one device to have 1 entry in the episode download
+report. This is what I would expect, too.</p>
+
+<h2>Correcting The Problem, Moving Forward</h2>
+
+<p>Having dug in to this, I found it&rsquo;s easy to correct the problem
+now that I know what it is. So from here on forward, SignalLeaf
+will only make an entry in the episode downloads once per
+however many requests are made from a device. No matter how
+many requests are made for the file, over how long of a period
+of time, the byte range marker in the HTTP request tells me
+that this is a continuation of a previous download and I
+don&rsquo;t need to continue tracking it.</p>
+
+<h2>What This Means For You, Podcaster</h2>
+
+<p>From here on out, your download stats for episodes will be
+more accurate and less bloated by mobile devices that are
+downloading episodes. You may see a reduction in the average
+downloads per episodes because of this. This is to be expected
+since I am now more accurately tracking the downloads.</p>
+
+<p>Previous episode tracking information is still showing all of
+the false-positive entries at the moment. I have not yet
+worked out a simple way to correct this for all episodes, but
+I have corrected a number of bad entries for the most
+egregiously large tracking problems.</p>
+
+<p>I&rsquo;ll continue to monitor the situation, of course, and will
+make sure that the podcast and episode reports for listens
+and downloads are as accurate as possible.</p>
+</div>
+
+
+  <footer>
+    <hr>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Derick Bailey</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-28T12:43:00-05:00" pubdate data-updated="true">Apr 28<span>th</span>, 2014</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/features/'>Features</a>, <a class='category' href='/blog/categories/signalleaf/'>SignalLeaf</a>, <a class='category' href='/blog/categories/tracking/'>Tracking</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://blog.signalleaf.com/blog/2014/04/28/correcting-episode-tracking-for-mobile-and-other-devices/" data-via="signalleaf" data-counturl="http://blog.signalleaf.com/blog/2014/04/28/correcting-episode-tracking-for-mobile-and-other-devices/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/03/21/the-1-thing-you-need-to-know-about-your-rss-feed/" title="Previous Post: The 1 Thing You Need To Know About Your RSS Feed">&laquo; The 1 Thing You Need To Know About Your RSS Feed</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+<!-- Begin MailChimp Signup Form -->
+<style type="text/css">
+  /* MailChimp Form Embed Code - Slim - 08/17/2011 */
+  #mc_embed_signup_2 form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
+  #mc_embed_signup_2 h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
+  #mc_embed_signup_2 input {border:1px solid #999; -webkit-appearance:none;}
+  #mc_embed_signup_2 input[type=checkbox]{-webkit-appearance:checkbox;}
+  #mc_embed_signup_2 input[type=radio]{-webkit-appearance:radio;}
+  #mc_embed_signup_2 input:focus {border-color:#333;}
+  #mc_embed_signup_2 .button {background-color: #252; border: 0 none; border-radius:4px; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; font-weight: bold; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding:0; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
+  #mc_embed_signup_2 .button:hover {background-color:#272;}
+  #mc_embed_signup_2 .small-meta {font-size: 11px;}
+  #mc_embed_signup_2 .nowrap {white-space:nowrap;}     
+  #mc_embed_signup_2 .clear {clear:none; display:inline;}
+
+  #mc_embed_signup_2 label {display:block; font-size:16px; padding-bottom:10px; font-weight:bold;}
+  #mc_embed_signup_2 input.email {display:block; padding:4px 0; margin:0 4% 10px 0; text-indent:5px; width:58%; min-width:130px; font-size: 14pt;}
+  #mc_embed_signup_2 input.button {display:block; width:35%; margin:0 0 10px 0; min-width:90px;}
+
+  #mc_embed_signup_2 div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
+  #mc_embed_signup_2 div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
+  #mc_embed_signup_2 #mce-error-response {display:none;}
+  #mc_embed_signup_2 #mce-success-response {color:#529214; display:none;}
+  #mc_embed_signup_2 label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
+
+	#mc_embed_signup_2 form{
+    clear:left; 
+    font:14pt Helvetica,Arial,sans-serif; 
+    margin: 0em 3em 3em 3em;
+    padding: 0px;
+    border: 1px solid #bbb;
+  }
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+  ul.email-list {
+    margin-left: 2em;
+  }
+
+  #mc_embed_signup_2 .mc-field-group input {
+    display: inline-block;
+  }
+
+  #mc_embed_signup_2 header.email-header {
+    margin: 0px;
+    height: 50px;
+    padding-top: 25px;
+    background-color: #252;
+    color: #fff;
+    text-align: center;
+  }
+
+  #mc_embed_signup_2 header.email-header h1 {
+    font-size: 18pt;
+  }
+
+  #mc_embed_signup_2 article.email-article {
+    margin: 0px;
+    padding: 1em;
+    background-color: #fff;
+  }
+
+  #mc_embed_signup_2 article.email-article p:last-child {
+    margin-bottom: 0.1em;
+  }
+
+  #mc_embed_signup_2 footer.email-footer {
+    margin: 0;
+    padding: 1em;
+    background-color: #bbb;
+  }
+
+</style>
+<div id="mc_embed_signup_2">
+<form action="http://mutedsolutions.us2.list-manage.com/subscribe/post?u=3972dd7d553357be54dba30dd&amp;id=0a5e47bf39" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+  <header class="email-header">
+    <h1>Want the latest podcasting news and tips?</h1>
+  </header>
+  <article class="email-article">
+    <p> 
+      Sign up to receive articles, updates and podacsting news!
+      <strong>And get the Prepare, Produce, Publish e-book - a $10 value - FREE!</strong>
+    </p>
+    <div class="left">
+      <img src="/images/prepare-produce-publish-cover.png" width="250">
+    </div>
+    <div class="right">
+      <p>In this e-book, you'll learn:</p>
+      <ul class="email-list">
+        <li> How to get started with a little planning
+        <li> What equipment you do and <strong>don't</strong> Need
+        <li> How to record and edit your episodes
+        <li> Trade secrets for sounding like a pro
+        <li> Tips on publishing your podcast
+        <li> And so much more!
+      </ul>
+    </div>
+    <div class="clearfix">&nbsp;</div>
+    <p>
+      <strong>Sign up now</strong>, for instant access to the 
+      easiest way to get started podcasting, and get the latest and greatest 
+      news and updates from the podcasting industry, right in your in-box!
+    </p>
+  </article>
+  <footer class="email-footer">
+    <div class="mc-field-group">
+      <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email Address">
+      <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+    <div id="mce-responses" class="clear">
+      <div class="response" id="mce-error-response" style="display:none"></div>
+      <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>	
+  </footer>
+  <div class="clear">
+</form>
+</div>
+<!--End mc_embed_signup-->
+
+
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/04/28/correcting-episode-tracking-for-mobile-and-other-devices/">Correcting Episode Tracking for Mobile and Other Devices</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/03/21/the-1-thing-you-need-to-know-about-your-rss-feed/">The 1 Thing You Need to Know About Your RSS Feed</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/02/26/50-reasons-why-you-need-to-blog-every-podcast-episode/">50 Reasons Why You Need to Blog Every Podcast Episode</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/02/14/what-reports-do-you-need-for-your-podcast/">What Reports Do You Need for Your Podcast?</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/02/06/4-of-the-worst-things-to-do-when-starting-a-podcast/">4 of the Worst Things to Do When Starting a Podcast</a>
+      </li>
+    
+  </ul>
+</section>
+<section>
+  <h1>How To Podcast</h1>
+  <div class="center">
+    <br>
+    <a href="/how-to-podcast" target="_blank" class="center"><img src="/images/prepare-produce-publish-cover.png"></a>
+    <br><br>
+    <p>
+      Get Your Copy <b>FREE!</b> And get
+      the latest in podcasting news, from
+      SignalLeaf.
+    </p>
+  </div>
+</section>
+
+<section>
+  <h1>Podcast Hosting By</h1>
+  <a href="http://signalleaf.com" target="_blank"><img src="/images/signalleaf-hosting-ad.png"></a>
+</section>
+
+
+<section>
+  <h1>Amazon Affiliate</h1>
+  <p class="center">
+    <iframe src="http://rcm-na.amazon-adsystem.com/e/cm?t=signalleaf-20&o=1&p=286&l=st1&mode=books&search=podcasting&fc1=000000&lt1=_blank&lc1=3366FF&bg1=FFFFFF&f=ifr" marginwidth="0" marginheight="0" width="200" height="200" border="0" frameborder="0" style="border:none;" scrolling="no"></iframe>
+  </p>
+</section>
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  <a href="http://signalleaf.com" target="_blank">SignalLeaf</a>
+  is a podcast audio hosting service from
+  <a href="http://mutedsolutions.com", target="_blank">Muted Solutions, LLC</a> 
+</p>
+<p class="right">
+  Copyright &copy; 2014
+  <a href="http://mutedsolutions.com", target="_blank">Muted Solutions, LLC</a>.
+  All Rights Reserved.
+  |
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'signalleafblog';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://blog.signalleaf.com/blog/2014/04/28/correcting-episode-tracking-for-mobile-and-other-devices/';
+        var disqus_url = 'http://blog.signalleaf.com/blog/2014/04/28/correcting-episode-tracking-for-mobile-and-other-devices/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
